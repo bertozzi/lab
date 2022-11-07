@@ -1,0 +1,73 @@
+Esercitazione 1
+
+Lanciare code::blocks e provare ad usarlo
+
+Primi elementi C:
+
+printf(), scanf(), tipi di dato int e float, espressioni semplici.
+
+ - leggere da tastiera un numero intero (int), stamparlo in formato
+   decimale, ottale e esadecimale. Cosa cambia tra x e X o tra o e O?
+
+ - leggere da tastiera un'ammontare in euro (quale tipo di dato
+   dovreste usare tra int e float?), applicare l'IVA del 22% e
+   stampare il risultato (si ricorda che per le valute vanno stampate
+   2 e solo 2 cifre dopo la virgola).
+
+ - leggere da tastiera 2 numeri interi, calcolare il risultato della
+   divisione tra di loro e stamparlo. Cosa notate?
+
+ - leggere da tastiera una temperatura espressa in gradi celsius,
+   convertirla in farenheit e stamparla (la formula è F = 32 + 9/5C)
+
+ - leggere da tastiera un numero intero non negativo tra 0 e 15.
+   Stampare le 4 cifre della sua rappresentazione binaria dalla
+   meno significativa alla piú significativa (suggerimento: usare
+   l'operatore % e la divisione)
+
+ - leggere da tastiera una cifra in EUR. Considerando solo le monete
+   in EUR (2 EUR, 1 EUR, 50, 20, 10, 5, 2 e 1 eurocent). Calcolare
+   quale è il numero minimo di monete e di quale tipo che che si
+   possono usare per ottenere quella cifra. Suggerimento: dividere
+   la cifra per 2, otterrete così il numero di monete da 2 EUR.
+   Sottrarre alla cifra originale l'ammontare complessivo delle monete
+   da 2 EUR. Ripetere la procedura sulla cifra rimanente dividendo
+   per 1 e ottenendo così il numero di monete da 1 EUR da usare.
+   Sottrarre ulteriormente l'ammontare complessivo delle monete da
+   1 EUR e ripetere ulteriormente la procedura con tutti i tagli di
+   monete rimanenti dal piú grande (50 eurocent) fino al centesimo.
+
+Espressioni e Controllo di flusso:
+
+ - prendere un numero intero in ingresso e stampare se il numero e'
+   pari o dispari
+
+ - prendere in ingresso tre numeri floating point e stampare il 
+   piu' grande dei 3
+
+ - leggere da tastiera un numero a due cifre e stamparlo con le 
+   cifre invertite
+
+ - leggere da tastiera un numero fino a quando il numero inserito 
+   non e' compreso tra 10 e 20
+
+ - prendere ingresso un numero intero N, calcoli la somma di tutti i
+   numeri pari da 0 a N e stamparla
+
+ - leggere da tastiera un numero, stampare quante cifre ha
+   (suggerimento, dividere per 10 fino a che il risultato non è 0)
+
+ - si implementi il seguente algoritmo:
+   a:  input n
+   b:  ouput n
+   c:  se n = 1, salta a f
+   d:  se n è pari, n <-- 3n+15:  altrimenti, n <-- n/2 (divisione intera)
+   e:  ripeti da b
+   f: stampare  la lunghezza della sequenza ottenuta
+
+ - si prenda in ingresso un ammontare in EUR, un tasso di interesse
+   annuale (x in %), e una durata in anni n. Si stampi come varia
+   l'ammontare inserito anno per anno se ogni anno applichiamo il
+   tasso di interesse x per n anni.
+
+
