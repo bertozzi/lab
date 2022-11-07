@@ -1,0 +1,86 @@
+Rispetto all'esercizio proposto per la precedente attivita' svolta in
+laboratorio e risolta completamente (punto 4 incluso), effettuare le
+seguenti modifiche nell'ordine proposto:
+
+0. Si realizzi una funzione void stampa_scacchiera(???) che contiene
+   il codice già realizzato per stampare la scacchiera (e la si usi!)
+   Cosa passo alla funzione e come?
+
+1. Si modifichi il punto 3a (e codice che dipende da questo) di
+   modo da leggere la mossa da effettuare come stringa di massimo 6
+   caratteri
+
+2. Quando un pezzo effettua una cattura la codifica della mossa
+   contiene una x, ad esempio "be6xh3" indica che l'alfiere bianco si
+   sposta da e6 a h3 catturando il pezzo presente in h3. Si modifichi
+   il codice implementato di modo da controllare nella mossa inserita
+   la possibile presenza della 'x' usando la funzione strchr() e se ne
+   tenga conto nell'interpretare la mossa
+
+3. Si implementi una funzione ?? mosse(??) che prende in ingresso
+   la "situazione" della scacchiera, le coordinate di una casella e
+   restituisce:
+    - NULL se la casella non contiene nessun pezzo
+    - un array allocato dinamicamente di "coordinate" in cui il pezzo
+      presente si puo' spostare
+
+4. Quando la stringa in ingresso contiene solo 2 caratteri (esempio
+   "h3") invece di effettuare la mossa come fatto fino ad ora si intende
+   stampare le possibili mosse del pezzo contenuto alle coordinate
+   inserite con la stringa.
+
+   A tal fine si sviluppi una funzione void stampa_mosse(???) che analizza la
+   stringa in ingresso interpretandola come coordinata di una cella
+   della scacchiera. Tale funzione usa quanto fatto precedentemente e
+   stampa le celle in cui il pezzo presente si può spostare tramite 
+   degli '*'.
+
+   Esempio, se si inserisce "c1" una possibile stampa a partire dalla
+   situazione seguente
+
+
+     a b c d e f g h
+    +-+-+-+-+-+-+-+-+
+   1|R|N|B|Q|K|B| |R|
+    +-+-+-+-+-+-+-+-+
+   2| | |P| |P| |P|P|
+    +-+-+-+-+-+-+-+-+
+   3|P|P| |P| |N| | |
+    +-+-+-+-+-+-+-+-+
+   4| | | | | | |n| |
+    +-+-+-+-+-+-+-+-+
+   5| | | |p| |p| | |
+    +-+-+-+-+-+-+-+-+
+   6| | | | | | |p| |
+    +-+-+-+-+-+-+-+-+
+   7|p|p|p|p| | | |p|
+    +-+-+-+-+-+-+-+-+
+   8|r| |b|q|k|b|n|r|
+    +-+-+-+-+-+-+-+-+
+
+   potrebbe essere:
+  
+     a b c d e f g h
+    +-+-+-+-+-+-+-+-+
+   1|R|N|B|Q|K|B| |R|
+    +-+-+-+-+-+-+-+-+
+   2| |*|P|*|P| |P|P|
+    +-+-+-+-+-+-+-+-+
+   3|P|P| |P|*|N| | |
+    +-+-+-+-+-+-+-+-+
+   4| | | | | |*|n| |
+    +-+-+-+-+-+-+-+-+
+   5| | | |p| |p|*| |
+    +-+-+-+-+-+-+-+-+
+   6| | | | | | |p|*|
+    +-+-+-+-+-+-+-+-+
+   7|p|p|p|p| | | |p|
+    +-+-+-+-+-+-+-+-+
+   8|r| |b|q|k|b|n|r|
+    +-+-+-+-+-+-+-+-+
+
+
+   Suggerimento, si allochi dinamicamente una seconda scacchiera su  .
+   cui copiare la situazione attuale (memcpy()) La si modifichi di    
+   modo da inserire gli asterischi e la si stampi usando le funzioni  
+   gia' sviluppate
