@@ -38,43 +38,64 @@ int main(int argc, char **argv){
   printf("Hai inserito [%s] e convertita vale [", pa);
 
   char conv[2000];
+  int j=0;
   for(int i=0; i<strlen(pa); ++i)
   {
     switch(  pa[i] )
     {
       case 'a':
       case 'A':
-	conv[i]='4';
+	conv[j]='4';
+	++j;
 	break;
       case 'e':
       case 'E':
-	conv[i]='3';
+	conv[j]='3';
+	++j;
 	break;
       case 'g':
       case 'G':
-	conv[i]='6';
+	conv[j]='6';
+	++j;
 	break;
       case 'i':
       case 'I':
-	conv[i]='1';
+	conv[j]='1';
+	++j;
 	break;
       case 'o':
       case 'O':
-	conv[i]='0';
+	conv[j]='0';
+	++j;
 	break;
       case 't':
       case 'T':
-	conv[i]='7';
+	conv[j]='7';
+	++j;
 	break;
       case 's':
       case 'S':
-	conv[i]='5';
+	conv[j]='5';
+	++j;
 	break;
+	//  U -> (_)
+      case 'u':
+      case 'U':
+	conv[j]='(';
+	++j;
+	conv[j]='_';
+	++j;
+	conv[j]=')';
+	++j;
+	break;
+	// TODO fare le altre lettere...
       default:
-	conv[i]=pa[i];
+	conv[j]=pa[i];
+	++j;
     }
   }
-  printf("%s]\n", pa);
+  conv[j]='\0'; // conv[] e' solo un array, lo termino per creare una stringa
+  printf("%s]\n", conv);
 
   return 0;
 }
