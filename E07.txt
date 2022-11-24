@@ -1,0 +1,46 @@
+Il "gioco del 15" consiste di una griglia di 4x4 caselle, 15
+delle quali occupate da altrettanti quadratini numerati. In una
+variante del gioco i quadratini contenevano le prime 15 lettere
+dell'alfabeto inglese, dalla 'A' alla 'O'. Come si sa, la posizione
+vuota della griglia può essere occupata spostandovi orizzontalmente o
+verticalmente un quadratino vicino. L'obiettivo del gioco era quello
+di mettere in ordine alfabetico le lettere.
+
+Scrivere un programma che, data una configurazione iniziale della
+griglia e una sequenza di spostamenti, ottenga la configurazione
+finale.
+
+L'input del programma è costituito da cinque righe contenenti
+lettere maiuscole più lo spazio. Le prime quattro righe contengono
+la configurazione iniziale del gioco, quattro caratteri per riga;
+l'ultima riga la sequenza di mosse, ciascuna delle quali è
+rappresentata da una lettera: 'A' per 'alto', 'B' per 'basso', 'S'
+per 'sinistra' e 'D' per 'destra'. 'A' indica che viene spostato
+il quadratino al di sopra della posizione vuota, 'B' quello al di
+sotto, 'S' quello a sinistra e 'D' quello a destra. È possibile che
+una sequenza di spostamenti sia incompatibile con la configurazione
+iniziale.
+
+L'output contiene la configurazione finale, rappresentata sempre con
+quattro righe di quattro caratteri ciascuna, compreso lo spazio per
+indicare la casella vuota, oppure un messaggio che indica che non
+esiste una configurazione finale.
+
+
+Esempio:
+
+Input
+
+DFNG
+JHKB
+M CL
+AOEI
+BSAADDSB
+
+
+Output
+
+DFNG
+HOKB
+J CL
+MAEI
