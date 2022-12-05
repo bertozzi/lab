@@ -1,4 +1,4 @@
-Un testo HTML è un testo inframezzato iqua e là dai cosiddetti "tag", ovvero sequenze di caratteri tra "<" e ">" che codificano ruoli, regole di formattazione, link ecc. nel testo stesso. 
+Un testo HTML è un testo inframezzato qua e la' dai cosiddetti "tag", ovvero sequenze di caratteri tra "<" e ">" che codificano ruoli, regole di formattazione, link ecc. nel testo stesso. 
 
 Assumendo che i tag vadano sempre a coppia, realizzare un programma che controlli il corretto annidamento dei tag. 
 
