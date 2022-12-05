@@ -1,6 +1,0 @@
-boy
-girl
-dog
-town
-car
-book
