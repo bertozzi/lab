@@ -1,0 +1,24 @@
+Un testo HTML è un testo inframezzato iqua e là dai cosiddetti "tag", ovvero sequenze di caratteri tra "<" e ">" che codificano ruoli, regole di formattazione, link ecc. nel testo stesso. 
+
+Assumendo che i tag vadano sempre a coppia, realizzare un programma che controlli il corretto annidamento dei tag. 
+
+In particolare si consideri che un tag di apertura abbia il formato <"stringa senza spazi"> mentre il corrispondente tag di chiusura abbia il formato </"stessa stringa dell'apertura">.
+
+Ogni tag di apertura deve avere un corrispondente tag di chiusura come nell'esempio seguente:
+
+Questo e' un normale testo. <xmp> Qui c'e' dell'ulteriore
+testo.
+<b> Questo testo apparira' in neretto. </b> Ancora qualche
+parola </xmp>
+
+Aperture e chiusure dei tag devono essere nidificate come nell'esempio precedente. In parole povere seguono le stesse regole delle parentesi nel caso del C. Quindi il seguente testo non e' corretto:
+
+Ecco un <b>esempio di testo non <span>corretto</b></span>
+
+Il programma deve chiedere all'utente un nome di file, aprirlo e stampare semplicemente OK se tutti i tag sono aperti e chiusi rispettando il corretto annidamento. 
+
+In caso contrario deve stampare il primo errore identificato ed uscire.
+
+
+
+
