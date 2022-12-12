@@ -1,3 +1,4 @@
+// SOLUZIONE CON ARRAY BIDIMENSIONALE COMPLETAMENTE STATICO
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

@@ -1,3 +1,4 @@
+// MIGLIORAMENTO DI SOL1: SOLUZIONE CON ARRAY STATICO MA DI PUNTATORI
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
