@@ -7,7 +7,9 @@ Primi elementi C:
 printf(), scanf(), tipi di dato int e float, espressioni semplici.
 
  1 leggere da tastiera un numero intero (int), stamparlo in formato
-   decimale, ottale e esadecimale. Cosa cambia tra x e X o tra o e O?
+   decimale, ottale e esadecimale usando gli specificatori di formato 
+   visti a lezione. 
+   Cosa cambia tra x e X o tra o e O?
 
  2 leggere da tastiera un'ammontare in euro (quale tipo di dato
    dovreste usare tra int e float?), applicare l'IVA del 22% e
