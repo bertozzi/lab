@@ -17,15 +17,19 @@ printf(), scanf(), tipi di dato int e float, espressioni semplici.
  3 leggere da tastiera 2 numeri interi, calcolare il risultato della
    divisione tra di loro e stamparlo. Cosa notate?
 
- 4 leggere da tastiera una temperatura espressa in gradi celsius,
+ 4 leggere da tastiera il raggio di una sfera. Calcolarne e stamparne
+   il volume. Usare la formula v = 4/3 * PI * R^2
+
+ 5 leggere da tastiera una temperatura espressa in gradi celsius,
    convertirla in farenheit e stamparla (la formula è F = 32 + 9/5C)
 
- 5 leggere da tastiera un numero intero non negativo tra 0 e 15.
-   Stampare le 4 cifre della sua rappresentazione binaria dalla
-   meno significativa alla piú significativa (suggerimento: usare
-   l'operatore % e la divisione)
+ 6 leggere da tastiera il valore di una variabile x. Calcolare e
+   stampare il valore del polinomio 4x^5 + 2x^3 + 7x +5
 
- 6 leggere da tastiera una cifra in EUR. Considerando solo le monete
+ 7 ottimizzare il programma precedente riducendo al massimo le
+   moltiplicazioni
+
+ 8 leggere da tastiera una cifra in EUR. Considerando solo le monete
    in EUR (2 EUR, 1 EUR, 50, 20, 10, 5, 2 e 1 eurocent). Calcolare
    quale è il numero minimo di monete e di quale tipo che che si
    possono usare per ottenere quella cifra. Suggerimento: dividere
@@ -37,27 +41,34 @@ printf(), scanf(), tipi di dato int e float, espressioni semplici.
    1 EUR e ripetere ulteriormente la procedura con tutti i tagli di
    monete rimanenti dal piú grande (50 eurocent) fino al centesimo.
 
+Rappresentazione dei numeri in informatica
+
+ 9 leggere da tastiera un numero intero non negativo tra 0 e 15.
+   Stampare le 4 cifre della sua rappresentazione binaria dalla
+   meno significativa alla piú significativa (suggerimento: usare
+   l'operatore % e la divisione)
+
 Espressioni e Controllo di flusso:
 
- 7 prendere un numero intero in ingresso e stampare se il numero e'
+ A prendere un numero intero in ingresso e stampare se il numero e'
    pari o dispari
 
- 8 prendere in ingresso tre numeri floating point e stampare il 
+ B prendere in ingresso tre numeri floating point e stampare il 
    piu' grande dei 3
 
- 9 leggere da tastiera un numero a due cifre e stamparlo con le 
+ C leggere da tastiera un numero a due cifre e stamparlo con le 
    cifre invertite
 
- A leggere da tastiera un numero fino a quando il numero inserito 
+ D leggere da tastiera un numero fino a quando il numero inserito 
    non e' compreso tra 10 e 20
 
- B prendere ingresso un numero intero N, calcoli la somma di tutti i
+ E prendere ingresso un numero intero N, calcoli la somma di tutti i
    numeri pari da 0 a N e stamparla
 
- C leggere da tastiera un numero, stampare quante cifre ha
+ F leggere da tastiera un numero, stampare quante cifre ha
    (suggerimento, dividere per 10 fino a che il risultato non è 0)
 
- D si implementi il seguente algoritmo:
+11 si implementi il seguente algoritmo:
    a:  input n
    b:  ouput n
    c:  se n = 1, salta a f
@@ -65,7 +76,7 @@ Espressioni e Controllo di flusso:
    e:  ripeti da b
    f: stampare  la lunghezza della sequenza ottenuta
 
- E si prenda in ingresso un ammontare in EUR, un tasso di interesse
+12 si prenda in ingresso un ammontare in EUR, un tasso di interesse
    annuale (x in %), e una durata in anni n. Si stampi come varia
    l'ammontare inserito anno per anno se ogni anno applichiamo il
    tasso di interesse x per n anni.
