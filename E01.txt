@@ -20,7 +20,7 @@ printf(), scanf(), tipi di dato int e float, espressioni semplici.
    divisione tra di loro e stamparlo. Cosa notate?
 
  4 leggere da tastiera il raggio di una sfera. Calcolarne e stamparne
-   il volume. Usare la formula v = 4/3 * PI * R^2
+   il volume. Usare la formula v = 4/3 * PI * R^3
 
  5 leggere da tastiera una temperatura espressa in gradi celsius,
    convertirla in farenheit e stamparla (la formula è F = 32 + 9/5C)
