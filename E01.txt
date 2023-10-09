@@ -20,16 +20,18 @@ printf(), scanf(), tipi di dato int e float, espressioni semplici.
    divisione tra di loro e stamparlo. Cosa notate?
 
  4 leggere da tastiera il raggio di una sfera. Calcolarne e stamparne
-   il volume. Usare la formula v = 4/3 * PI * R^3
+   il volume. Usare la formula v = 4/3 * PI * R^3. Verificate
+   il risultato...
 
  5 leggere da tastiera una temperatura espressa in gradi celsius,
    convertirla in farenheit e stamparla (la formula è F = 32 + 9/5C)
 
  6 leggere da tastiera il valore di una variabile x. Calcolare e
    stampare il valore del polinomio 4x^5 + 2x^3 + 7x +5
+   Non usate pow()
 
  7 ottimizzare il programma precedente riducendo al massimo le
-   moltiplicazioni
+   moltiplicazioni (sempre senza usare pow())
 
  8 leggere da tastiera una cifra in EUR. Considerando solo le monete
    in EUR (2 EUR, 1 EUR, 50, 20, 10, 5, 2 e 1 eurocent). Calcolare
