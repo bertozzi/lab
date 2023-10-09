@@ -52,14 +52,14 @@ Rappresentazione dei numeri in informatica
 
 Espressioni e Controllo di flusso:
 
- A prendere un numero intero in ingresso e stampare se il numero e'
+ A leggere da tastiera un numero a due cifre e stamparlo con le 
+   cifre invertite
+
+ B prendere un numero intero in ingresso e stampare se il numero e'
    pari o dispari
 
- B prendere in ingresso tre numeri floating point e stampare il 
+ C prendere in ingresso tre numeri floating point e stampare il 
    piu' grande dei 3
-
- C leggere da tastiera un numero a due cifre e stamparlo con le 
-   cifre invertite
 
  D leggere da tastiera un numero fino a quando il numero inserito 
    non e' compreso tra 10 e 20
