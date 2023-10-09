@@ -48,7 +48,7 @@ Rappresentazione dei numeri in informatica
  9 leggere da tastiera un numero intero non negativo tra 0 e 15.
    Stampare le 4 cifre della sua rappresentazione binaria dalla
    meno significativa alla piú significativa (suggerimento: usare
-   l'operatore % e la divisione)
+   l'operatore % e la divisione e non la funzione pow())
 
 Espressioni e Controllo di flusso:
 
