@@ -76,7 +76,7 @@ Espressioni e Controllo di flusso: https://github.com/bertozzi/lab
    a: input n
    b: fino a che n e' diverso da 1 ripetere i punti c e d:
        c: output n
-       d: se n è pari aggiornare n come
+       d: se n è dispari aggiornare n come
              n <-- 3n+1:  
           altrimenti 
              n <-- n/2 (divisione intera)
