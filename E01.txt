@@ -76,7 +76,7 @@ Espressioni e Controllo di flusso:
    a:  input n
    b:  ouput n
    c:  se n = 1, salta a f
-   d:  se n è pari, n <-- 3n+15:  altrimenti, n <-- n/2 (divisione intera)
+   d:  se n è pari, n <-- 3n+1:  altrimenti, n <-- n/2 (divisione intera)
    e:  ripeti da b
    f: stampare  la lunghezza della sequenza ottenuta
 
@@ -85,4 +85,17 @@ Espressioni e Controllo di flusso:
    l'ammontare inserito anno per anno se ogni anno applichiamo il
    tasso di interesse x per n anni.
 
+13 le attuali aliquote IRPEF prevedono una tassazione del 23% per la
+   quota di reddito imponibile fino a 15.000 EUR, del 25% per la parte
+   tra 15.001 e 28.000 EUR del 35% per la quota tra 28.001 e 50.000
+   EUR, e del 43% per quanto oltre i 50.000. Chiedere all'utente una
+   cifra di imponibile e stampare a video l'ammontare IRPEF e la
+   relativa aliquota media.
 
+15 Iterativamente chiedere all'utente un numero intero fino a che
+   l'utente non inserisce 0. Stampare quindi il piu' grande e il piu'
+   piccolo dei numeri inseriti dall'utente.
+
+16 Prendere in ingresso da tastiera un numero intero n e quindi
+   stampare tutti i numeri interi presenti nell'intervallo [1,n] che
+   sono anche cubi di altri numeri interi
