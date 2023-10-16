@@ -52,7 +52,7 @@ Rappresentazione dei numeri in informatica
    meno significativa alla piú significativa (suggerimento: usare
    l'operatore % e la divisione e non la funzione pow())
 
-Espressioni e Controllo di flusso:
+Espressioni e Controllo di flusso: https://github.com/bertozzi/lab
 
  A leggere da tastiera un numero a due cifre e stamparlo con le 
    cifre invertite
@@ -73,12 +73,14 @@ Espressioni e Controllo di flusso:
    (suggerimento, dividere per 10 fino a che il risultato non è 0)
 
 11 si implementi il seguente algoritmo:
-   a:  input n
-   b:  ouput n
-   c:  se n = 1, salta a f
-   d:  se n è pari, n <-- 3n+1:  altrimenti, n <-- n/2 (divisione intera)
-   e:  ripeti da b
-   f: stampare  la lunghezza della sequenza ottenuta
+   a: input n
+   b: fino a che n e' diverso da 1 ripetere il punto c:
+       c: se n è pari aggiornare n come
+             n <-- 3n+1:  
+          altrimenti 
+             n <-- n/2 (divisione intera)
+   f: stampare la lunghezza della sequenza ottenuta ovvero quanti
+      numeri sono stati stampati
 
 12 si prenda in ingresso un ammontare in EUR, un tasso di interesse
    annuale (x in %), e una durata in anni n. Si stampi come varia
