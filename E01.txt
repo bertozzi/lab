@@ -74,12 +74,13 @@ Espressioni e Controllo di flusso: https://github.com/bertozzi/lab
 
 11 si implementi il seguente algoritmo:
    a: input n
-   b: fino a che n e' diverso da 1 ripetere il punto c:
-       c: se n è pari aggiornare n come
+   b: fino a che n e' diverso da 1 ripetere i punti c e d:
+       c: output n
+       d: se n è pari aggiornare n come
              n <-- 3n+1:  
           altrimenti 
              n <-- n/2 (divisione intera)
-   f: stampare la lunghezza della sequenza ottenuta ovvero quanti
+   e: stampare la lunghezza della sequenza ottenuta ovvero quanti
       numeri sono stati stampati
 
 12 si prenda in ingresso un ammontare in EUR, un tasso di interesse
