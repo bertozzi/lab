@@ -1,0 +1,25 @@
+Scrivere codice che:
+
+1. usi rand() per riempire un array di 100 elementi con numeri interi casuali tra 0 e 70 e lo stampi (suggerimento, usare "%")
+
+2. usi rand() per riempire un array di 100 elementi con numeri interi casuali tra 10 e 80 e lo stampi
+
+3. come il precedente in cui però prima della stampa si eliminino gli elementi duplicati
+
+4. come il (2) in cui però non si stampa ma si richiede all'utente un numero, lo si ricerca nell'array e si stampa se esiste e in quale posizione si trovi
+
+5. usi rand() per riempire un array di 100 elementi con numeri interi univoci tra 1 e 300 e lo stampi
+
+6. usi un array per memorizzare le caselle di una scacchiera 8x8, lo inizializzi usando uno o piú cicli mettendo 'N' per le caselle nere e 'B' per quelle chiare e successivamente lo stampi:
+
+NBNBNBNB
+BNBNBNBN
+NBNBNBNB
+BNBNBNBN
+NBNBNBNB
+BNBNBNBN
+NBNBNBNB
+BNBNBNBN
+
+7. come il precedente ma usando un array monodimensionale... (suggerimento: data una matrice di N righe e M colonne è possibile memorizzarla in un array monodimensionale di dimensioni MxN; l'accesso all'elemento in riga y e colonna x lo posso effettuare accedendo all'elemento di indice x + M*y)
+
