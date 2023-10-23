@@ -2,7 +2,8 @@ TIPI DI DATO IN C
 
 Floating point
 
-1. Per calcolare la radice quadrata di un numero si puo' usare l'algoritmo di Newton. Dato un numero n di cui calcolare la radice, inizializzo il risultato r a 1. Ad ogni iterazione aggiorno r come valor medio tra r stesso e n/r Mi fermo quando l'aggiornamento di r e' inferiore a 10^-6 Confrontare il risultato con quanto restituito da sqrt(n)
+1. Per calcolare la radice quadrata di un numero si puo' usare l'algoritmo di Newton. Dato un numero n di cui calcolare la radice, inizializzo il risultato r a 1. Ad ogni iterazione aggiorno r come
+valor medio tra r stesso e n/r Mi fermo quando la differenza tra il valore con cui aggiorno r e il valore precedente di r e' inferiore a 10^-6 Confrontare il risultato con quanto restituito da sqrt(n)
 
 Interi
 
