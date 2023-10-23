@@ -1,0 +1,12 @@
+Sviluppare un programma in C che:
+
+1. prenda in ingresso un long int N e stampi in esadecimale i byte che lo compongono (si usi un ciclo for(), scorrimento e and bit a bit)
+
+2. legge da tastiera 4 char, stampa il loro valore numerico in esadecimale, li impacchetta in un int e stampa il valore dell'int cosi' ottenuto sempre in esadecimale
+
+3. legge da tastiera una sequenza di 16 risposte si/no (i soli caratteri S e N) e impacchetti i risultati una variabile short sfruttandone i 16 bit. A tal fine, si consideri N=0 e S=1.
+
+4. integri quanto sviluppato al punto precedente considerando di confrontare le risposte con il risultato. Si assegni 1 punto per ciascuna risposta corretta e 0 per ciascuna risposta sbagliata.
+   Le risposte fornite vanno estratte dalla variabile in cui sono state impacchettate al punto precedente e confrontate con la soluzione del quiz che è 14571
+
+
