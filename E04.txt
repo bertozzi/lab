@@ -1,16 +1,51 @@
+ESERCIZI SU ARRAY
+
+La funzione rand(), definita in stdlib.h, restituisce un intero
+casuale compreso nell'intervallo [0, RAND_MAX]. La sequenza e' in
+realta' pseudocasuale in quanto e' ottenuta a partire da un seme
+(seed) ovvero un valore numerico. A questo seme si applicano formule,
+operazioni bit a bit ecc. fino ad ottenere un numero che viene
+restituito da rand() e verra' usato come seme per la volta successiva.
+
+Ne consegue che rand() restituisce ogni volta la stessa sequenza di
+numeri casuali. Per evitare tale comportamento e ottenere quindi una
+sequenza ogni volta differente si puo' utilizzare la funzione srand().
+Ad esempio invocandola all'inizio della main, una e una sola volta,
+come:
+
+#include<time.h>
+...
+
+srand(time(0));
+
+
 Scrivere codice che:
 
-1. usi rand() per riempire un array di 100 elementi con numeri interi casuali tra 0 e 70 e lo stampi (suggerimento, usare "%")
+1. usi rand() per riempire un array di 100 elementi con numeri interi
+casuali tra 0 e 70 e lo stampi (suggerimento, usare "%")
 
-2. usi rand() per riempire un array di 100 elementi con numeri interi casuali tra 10 e 80 e lo stampi
+2. usi rand() per riempire un array di 100 elementi con numeri interi
+casuali tra 10 e 80 e lo stampi
 
-3. come il precedente in cui però prima della stampa si eliminino gli elementi duplicati
+3. come il (2) in cui però non si stampa ma si richiede all'utente
+un numero, lo si ricerca nell'array e si stampa se esiste e in quale
+posizione si trovi
 
-4. come il (2) in cui però non si stampa ma si richiede all'utente un numero, lo si ricerca nell'array e si stampa se esiste e in quale posizione si trovi
+4. come il precedente in cui però prima della stampa si eliminino gli
+elementi duplicati
 
-5. usi rand() per riempire un array di 100 elementi con numeri interi univoci tra 1 e 300 e lo stampi
+5. usi rand() per riempire un array di 100 elementi con numeri interi
+univoci tra 1 e 300 e lo stampi
 
-6. usi un array per memorizzare le caselle di una scacchiera 8x8, lo inizializzi usando uno o piú cicli mettendo 'N' per le caselle nere e 'B' per quelle chiare e successivamente lo stampi:
+6. riempa un array di 100 elementi con i numeri tra 1 e 100 in ordine
+e successivamente lo "mescoli", ovvero scambi di posizione in maniera
+casuale i vari elementi dell'array, e poi lo stampi. Suggerimento: si
+scorra l'array elemento per elemento e per ciascun elemento generare
+casualmente (rand()) l'indice di un altro elemento con cui scambiarlo.
+
+7. usi un array per memorizzare le caselle di una scacchiera 8x8, lo
+inizializzi usando uno o piú cicli mettendo 'N' per le caselle nere e
+'B' per quelle chiare e successivamente lo stampi:
 
 NBNBNBNB
 BNBNBNBN
@@ -21,5 +56,9 @@ BNBNBNBN
 NBNBNBNB
 BNBNBNBN
 
-7. come il precedente ma usando un array monodimensionale... (suggerimento: data una matrice di N righe e M colonne è possibile memorizzarla in un array monodimensionale di dimensioni MxN; l'accesso all'elemento in riga y e colonna x lo posso effettuare accedendo all'elemento di indice x + M*y)
+8. come il precedente ma usando un array monodimensionale...
+(suggerimento: data una matrice di N righe e M colonne è possibile
+memorizzarla in un array monodimensionale di dimensioni MxN; l'accesso
+all'elemento in riga y e colonna x lo posso effettuare accedendo
+all'elemento di indice x + M*y)
 
