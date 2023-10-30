@@ -31,7 +31,7 @@ casuali tra 10 e 80 e lo stampi
 un numero, lo si ricerca nell'array e si stampa se esiste e in quale
 posizione si trovi
 
-4. come il precedente in cui però prima della stampa si eliminino gli
+4. come il (2) in cui però prima della stampa si eliminino gli
 elementi duplicati
 
 5. usi rand() per riempire un array di 100 elementi con numeri interi
