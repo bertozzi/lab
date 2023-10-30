@@ -27,9 +27,10 @@ casuali tra 0 e 70 e lo stampi (suggerimento, usare "%")
 2. usi rand() per riempire un array di 100 elementi con numeri interi
 casuali tra 10 e 80 e lo stampi
 
-3. come il (2) in cui però non si stampa ma, solo dopo aver riempito l'array, si richiede all'utente
-un numero, lo si ricerca nell'array e si stampa se esiste e in quale
-posizione si trovi (limitarsi alla prima occorrenza del numero cercato)
+3. come il (2) in cui però non si stampa ma, solo dopo aver riempito
+l'array, si richiede all'utente un numero, lo si ricerca nell'array
+e si stampa se esiste e in quale posizione si trovi (limitarsi alla
+prima occorrenza del numero cercato)
 
 4. come il (2) in cui però prima della stampa si eliminino gli
 elementi duplicati
