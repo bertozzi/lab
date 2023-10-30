@@ -29,7 +29,7 @@ casuali tra 10 e 80 e lo stampi
 
 3. come il (2) in cui però non si stampa ma si richiede all'utente
 un numero, lo si ricerca nell'array e si stampa se esiste e in quale
-posizione si trovi
+posizione si trovi (limitarsi alla prima occorrenza del numero cercato)
 
 4. come il (2) in cui però prima della stampa si eliminino gli
 elementi duplicati
