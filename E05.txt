@@ -1,0 +1,65 @@
+PUNTATORI E ALLOCAZIONE DINAMICA DELLA MEMORIA
+
+Puntatori:
+
+1. Leggere da tastiera un numero decimale memorizzandolo in opportuna
+variabile x. Definire un puntatore p che possa contenere l'indirizzo
+di x e inizializzarlo con tale indirizzo. Stampare: l'indirizzo di
+x, il contenuto di p, l'indirizzo di p, il contenuto di x, il valore
+contenuto all'indirizzo contenuto in p.
+
+2. Leggere da tastiera due numeri interi nelle variabili i1 e i2.
+Si definiscano e inizializzino due puntatori di modo da contenere
+gli indirizzi delle due variabili i1 e i2. Si definisca una terza
+variabile sum e relativo puntatore ad essa. Si memorizzi in sum il
+risultato della somma di i1 e i2 usando esclusivamente i puntatori. Si
+stampi per verifica il contenuto di sum.
+
+
+Allocazione dinamica della memoria:
+
+3. chiedere all'utente un numero intero n, allocare array di n float
+dinamicamente con malloc(), leggere n numeri a virgola mobile e
+memorizzarli nell'array. Al termine stampare i numeri nell'ordine
+inverso rispetto a quando li si e' letti. Liberare la memoria prima di
+uscire dal programma.
+
+4. come il precedente ma inizializzando l'array allocato a 0. Si
+verifichi che abbia funzionato stampando il contenuto dell'array prima
+di leggere i numeri con cui riempirlo.
+
+5. si definisca un VLA di short dimensionandolo usando rand() per
+generare un numero a caso tra 80 e 100. Lo si riempa con numeri
+casuali tra 1 e 20. Mediante allocazione dinamica della memoria,
+allocare dinamicamente un secondo array di dimensione pari al primo
+sempre di short. Si ricopi il contenuto del primo array nel secondo.
+
+6. si allochino dinamicamente due array di 100 elementi mediante
+calloc() e si stampino gli indirizzi di dove si trovano in memoria.
+Utilizzando realloc() si estendano gli array in modo da poter
+contenere 200 elementi e si stampino nuovamente gli indirizzi di
+dove si trovano. Sempre usando realloc() si "accorcino" gli array di
+modo da poter contenere 50 elementi e si stampi nuovamente il loro
+indirizzo in memoria. Cosa notate?
+
+7. si riprenda l'esercizio E01.11. Si memorizzi la sequenza ottenuta
+nel ciclo (b) usando array allocato dinamicamente. Dato che la
+lunghezza della sequenza è ignota a priori si usi realloc() per
+estendere l'array man mano che vengono generati i numeri.
+Stampare la sequenza ottenuta solo al termine del ciclo.
+
+Aritmetica dei puntatori:
+
+8. Si definisca e inizializzi un array di numeri in cui l'ultimo
+elemento, e solo lui, contiene 0. Si inizializzi un opportuno
+puntatore che inizialmente punti all'inizio dell'array. Tramite un
+ciclo for() stampare il contenuto dell'array non usando un indice ma
+facendo variare l'indirizzo contenuto nel puntatore di modo che man
+mano contenga l'indirizzo dei vari elementi dell'array.
+
+
+9. Come il precedente in cui però l'ultimo elemento dell'array
+possa contenere un numero qualsiasi. In questo caso per terminare il
+ciclo non posso affidarmi ad un valore specifico come lo 0 nel caso
+precedente. Posso però calcolarmi l'indirizzo di memoria dell'ultimo
+elemento dell'array e usarlo per far terminare il mio ciclo.
