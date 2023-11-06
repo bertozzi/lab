@@ -1,6 +1,6 @@
-//^ PUNTATORI E ALLOCAZIONE DINAMICA DELLA MEMORIA
+//^ PUNTATORI, ALLOCAZIONE DINAMICA DELLA MEMORIA E ARITMETICA DEI PUNTATORI
 
-Puntatori:
+//! Puntatori
 
 1. Leggere da tastiera un numero decimale memorizzandolo in opportuna
 variabile x. Definire un puntatore p che possa contenere l'indirizzo
@@ -16,7 +16,7 @@ risultato della somma di i1 e i2 usando esclusivamente i puntatori. Si
 stampi per verifica il contenuto di sum.
 
 
-Allocazione dinamica della memoria:
+//! Allocazione dinamica della memoria
 
 3. chiedere all'utente un numero intero n, allocare array di n float
 dinamicamente con malloc(), leggere n numeri a virgola mobile e
@@ -48,7 +48,7 @@ lunghezza della sequenza è ignota a priori si usi realloc() per
 estendere l'array man mano che vengono generati i numeri.
 Stampare la sequenza ottenuta solo al termine del ciclo.
 
-Aritmetica dei puntatori:
+//! Aritmetica dei puntatori
 
 8. Si definisca e inizializzi un array di numeri in cui l'ultimo
 elemento, e solo lui, contiene 0. Si inizializzi un opportuno
