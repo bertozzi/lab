@@ -1,4 +1,4 @@
-Esercitazione 1
+//^ INTRODUZIONE AL C E A CODE::BLOCKS
 
 Lanciare code::blocks e provare ad usarlo
 

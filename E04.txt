@@ -1,4 +1,4 @@
-ESERCIZI SU ARRAY
+//^ ESERCIZI SU ARRAY
 
 La funzione rand(), definita in stdlib.h, restituisce un intero
 casuale compreso nell'intervallo [0, RAND_MAX]. La sequenza e' in

@@ -1,3 +1,4 @@
+//^ ESERCIZI SU STRINGHE
 Scrivere un programma che:
 
 1. legga da tastiera una stringa che non contiene caratteri di spaziatura e la stampi

@@ -1,3 +1,4 @@
+//^ OPERAZIONI SU SINGOLI BIT (ARGOMENTO AVANZATO)
 Sviluppare un programma in C che:
 
 1. prenda in ingresso un long int N e stampi in esadecimale i byte che lo compongono (si usi un ciclo for(), scorrimento e and bit a bit)
