@@ -3,14 +3,10 @@ Scrivere un programma che:
 
 1. legga da tastiera una stringa che non contiene caratteri di spaziatura e la stampi
 2. legga da tastiera una stringa che contiene caratteri di spaziatura e la stampi
+3. legga da tastiera una stringa che contiene caratteri di spaziatura e la stampi, ne stampi anche la lunghezza
 3. legga da tastiera due stringhe qualsiasi di massimo 10 caratteri e:
  - ne stampi la lunghezza (strlen())
  - le stampi in ordine "alfabetico" (strcmp())
- - le concateni e le stampi dapprima usando un array statico come destinazione e successivamente un array allocato dinamicamente (strcat())
- - verifichi se la seconda stringa e' contenuta nella prima e, in caso affermativo, in che posizione (strstr())
- - chieda un carattere e stampi quante volte quel carattere è contenuto nella prima stringa (strchr())
- - usi il carattere precedente a mo' di delimitatore per suddividere la prima stringa in sottostringhe e le si stampino (strtok())
-
 4. implementi la seguente funzione di modo da correggere l'errore di "lingering pointer" presente:
    char *read_line(void){
     char tmp[2000];
@@ -26,10 +22,15 @@ Scrivere un programma che:
    O -> 0
    S -> 5
    T -> 7
-6. come il precedente in cui però si convertono anche:
+6. che chieda due parole e verifichi se una e' anagramma dell'altra
+7. come il (5) in cui però si convertono anche:
    B -> |3
    D -> |)
    R -> |2
    U -> (_)
-7. che chieda due parole e verifichi se una e' anagramma dell'altra
+8. legga da tastiera due stringhe qualsiasi di massimo 10 caratteri e:
+ - le concateni e le stampi dapprima usando un array statico come destinazione e successivamente un array allocato dinamicamente (strcat())
+ - verifichi se la seconda stringa e' contenuta nella prima e, in caso affermativo, in che posizione (strstr())
+ - chieda un carattere e stampi quante volte quel carattere è contenuto nella prima stringa (strchr())
+ - usi il carattere precedente a mo' di delimitatore per suddividere la prima stringa in sottostringhe e le si stampino (strtok())
 
