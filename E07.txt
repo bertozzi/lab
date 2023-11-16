@@ -1,0 +1,29 @@
+//^ LE FUNZIONI
+
+1. scrivere una funzione di nome "isprime" che restituisce vero o
+   falso a seconda che le sia passato un numero primo o meno
+
+2. scrivere una funzione del tipo max(a,b) che restituisce il valore
+   massimo tra a e b Implementare successivamente una seconda funzione
+   che, sfruttando la precedente, restituisce il massimo tra 4 valori
+
+3. scrivere una funzione che restituisce il numero di cifre del numero
+   intero passato come argomento
+
+4. scrivere una funzione "bisestile" che prende in ingresso un anno e
+   restituisce vero o falso a seconda che l'anno in questione sia o
+   meno bisestile. Si rammenta che sono bisestili gli anni esattamente
+   divisibili per 4 con l'eccezione di quelli divisibili esattamente
+   da 100 ma non da 400
+
+5. scrivere una funzione "check_data" che restituisce vero o falso a
+   seconda che la data passata come argomento (giorno, mese e anno)
+   sia valida o meno
+
+6. scrivere una funzione "num_giorno" che restituisce, dopo aver preso
+   in ingresso una data come giorno mese e anno, quanti giorni sono
+   passati dall'inizio dell'anno fino a quella data
+
+7. scrivere una funzione che viene invocata passando due variabili. La
+   funzione deve scambiare il contenuto delle due variabili. Si riesce
+   a farlo?
