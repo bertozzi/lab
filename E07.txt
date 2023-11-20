@@ -18,7 +18,8 @@
 
 5. scrivere una funzione "check_data" che restituisce vero o falso a
    seconda che la data passata come argomento (giorno, mese e anno)
-   sia valida o meno
+   sia valida o meno. Suggerimento, ricordate la filastrocca sui mesi? 
+   "Trenta giorni ha novembre, con april, giugno e settembre..."
 
 6. scrivere una funzione "num_giorno" che restituisce, dopo aver preso
    in ingresso una data come giorno mese e anno, quanti giorni sono
