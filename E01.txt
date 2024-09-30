@@ -6,6 +6,11 @@ Primi elementi C:
 
 printf(), scanf(), tipi di dato int e float, espressioni semplici.
 
+Si rammenta che i principali operatori matematici sono: +, -, * e /
+Inoltre esiste % che restituisce il resto della divisione intera.
+A differenza di altri linguaggi, ^ non ha assolutamente il significato
+di operatore per l'elevamento a potenza.
+
  1 leggere da tastiera un numero intero (int), stamparlo in formato
    decimale, ottale e esadecimale usando gli specificatori di formato 
    visti a lezione. 
