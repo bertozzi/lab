@@ -87,6 +87,11 @@ Rappresentazione dei numeri in informatica
 9e prendere in ingresso 4 cifre binarie e stampare il valore
    del numero che rappresentano in formato decimale
 
+9f leggere da tastiera una cifra come char. Stamparne il codice
+   ASCII. Successivamente, memorizzare il valore che rappresenta 
+   (quindi non il codice ASCII ma un valore tra 0 e 9) in una 
+   variabile di tipo int e stamparla.
+
 Espressioni e Controllo di flusso: 
 
  A leggere da tastiera un numero a due cifre e stamparlo con le 
