@@ -1,13 +1,52 @@
-//^ OPERAZIONI SU SINGOLI BIT (ARGOMENTO AVANZATO)
-Sviluppare un programma in C che:
 
-1. prenda in ingresso un long int N e stampi in esadecimale i byte che lo compongono (si usi un ciclo for(), scorrimento e and bit a bit)
+Espressioni e Controllo di flusso: 
 
-2. legge da tastiera 4 char, stampa il loro valore numerico in esadecimale, li impacchetta in un int e stampa il valore dell'int cosi' ottenuto sempre in esadecimale
+ A leggere da tastiera un numero a due cifre e stamparlo con le 
+   cifre invertite
 
-3. legge da tastiera una sequenza di 16 risposte si/no (i soli caratteri S e N) e impacchetti i risultati una variabile short sfruttandone i 16 bit. A tal fine, si consideri N=0 e S=1.
+ B prendere un numero intero in ingresso e stampare se il numero e'
+   pari o dispari
 
-4. integri quanto sviluppato al punto precedente considerando di confrontare le risposte con il risultato. Si assegni 1 punto per ciascuna risposta corretta e 0 per ciascuna risposta sbagliata.
-   Le risposte fornite vanno estratte dalla variabile in cui sono state impacchettate al punto precedente e confrontate con la soluzione del quiz che è 14571
+ C prendere in ingresso tre numeri floating point e stampare il 
+   piu' grande dei 3
 
+ D leggere da tastiera un numero fino a quando il numero inserito 
+   non e' compreso tra 10 e 20
+
+ E prendere ingresso un numero intero N, calcoli la somma di tutti i
+   numeri pari da 0 a N e stamparla
+
+ F leggere da tastiera un numero, stampare quante cifre ha
+   (suggerimento, dividere per 10 fino a che il risultato non è 0)
+
+11 si implementi il seguente algoritmo:
+   a: input n
+   b: fino a che n e' diverso da 1 ripetere i punti c e d:
+       c: output n
+       d: se n è dispari aggiornare n come
+             n <-- 3n+1:  
+          altrimenti 
+             n <-- n/2 (divisione intera)
+   e: stampare la lunghezza della sequenza ottenuta ovvero quanti
+      numeri sono stati stampati
+
+12 si prenda in ingresso un ammontare in EUR, un tasso di interesse
+   annuale (x in %), e una durata in anni n. Si stampi come varia
+   l'ammontare inserito anno per anno se ogni anno applichiamo il
+   tasso di interesse x per n anni.
+
+13 le attuali aliquote IRPEF prevedono una tassazione del 23% per la
+   quota di reddito imponibile fino a 15.000 EUR, del 25% per la parte
+   tra 15.001 e 28.000 EUR del 35% per la quota tra 28.001 e 50.000
+   EUR, e del 43% per quanto oltre i 50.000. Chiedere all'utente una
+   cifra di imponibile e stampare a video l'ammontare IRPEF e la
+   relativa aliquota media.
+
+15 Iterativamente chiedere all'utente un numero intero fino a che
+   l'utente non inserisce 0. Stampare quindi il piu' grande e il piu'
+   piccolo dei numeri inseriti dall'utente.
+
+16 Prendere in ingresso da tastiera un numero intero n e quindi
+   stampare tutti i numeri interi presenti nell'intervallo [1,n] che
+   sono anche cubi di altri numeri interi
 
