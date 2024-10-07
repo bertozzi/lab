@@ -57,7 +57,7 @@ Rappresentazione dei numeri in informatica
    meno significativa alla piú significativa (suggerimento: usare
    l'operatore % e la divisione e non la funzione pow())
 
-Espressioni e Controllo di flusso: https://github.com/bertozzi/lab
+Espressioni e Controllo di flusso: 
 
  A leggere da tastiera un numero a due cifre e stamparlo con le 
    cifre invertite
