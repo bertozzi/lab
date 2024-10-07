@@ -81,7 +81,7 @@ Rappresentazione dei numeri in informatica
    meno significativa
 
 9d prendere in ingresso una singola cifra esadecimale e stamparne
-   il valore esadecimale
+   il valore in formato decimale
    Richiede l'uso del costrutto if()
 
 9e prendere in ingresso 4 cifre binarie e stampare il valore
