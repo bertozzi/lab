@@ -1,5 +1,4 @@
-
-Espressioni e Controllo di flusso: 
+//^ Espressioni e Controllo di flusso: 
 
  A leggere da tastiera un numero a due cifre e stamparlo con le 
    cifre invertite
