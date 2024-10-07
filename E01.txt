@@ -35,9 +35,6 @@ di operatore per l'elevamento a potenza.
    stampare il valore del polinomio 4x^5 + 2x^3 + 7x +5
    Non usate pow()
 
- 7 ottimizzare il programma precedente riducendo al massimo le
-   moltiplicazioni (sempre senza usare pow())
-
  8 leggere da tastiera una cifra in EUR. Considerando solo le monete
    in EUR (2 EUR, 1 EUR, 50, 20, 10, 5, 2 e 1 eurocent). Calcolare
    quale è il numero minimo di monete e di quale tipo che che si
@@ -50,12 +47,45 @@ di operatore per l'elevamento a potenza.
    1 EUR e ripetere ulteriormente la procedura con tutti i tagli di
    monete rimanenti dal piú grande (50 eurocent) fino al centesimo.
 
+Come usare il costrutto if:
+
+if(espressione)
+     istruzione|blocco di istruzioni
+else
+     istruzione|blocco di istruzioni
+
+Esempio
+
+if(a > 10 || b == c)
+{
+ printf("Condizione vera");
+}
+else
+{
+ printf("Condizione falsa");
+}
+
+
 Rappresentazione dei numeri in informatica
 
  9 leggere da tastiera un numero intero non negativo tra 0 e 15.
    Stampare le 4 cifre della sua rappresentazione binaria dalla
    meno significativa alla piú significativa (suggerimento: usare
    l'operatore % e la divisione e non la funzione pow())
+
+9b come sopra ma stampare la cifra esadecimale corrispondente 
+   (calcolandola, non usando gli specificatori di formato %x o %X)
+   Richiede l'uso del costrutto if()
+
+9c come il 9 ma stampando le cifre dalla più significativa alla 
+   meno significativa
+
+9d prendere in ingresso una singola cifra esadecimale e stamparne
+   il valore esadecimale
+   Richiede l'uso del costrutto if()
+
+9e prendere in ingresso 4 cifre binarie e stampare il valore
+   del numero che rappresentano in formato decimale
 
 Espressioni e Controllo di flusso: 
 
