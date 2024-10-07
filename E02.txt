@@ -1,39 +1,54 @@
-//^ TIPI DI DATO IN C
+//^ RAPPRESENTAZIONE DEI NUMERI E DEI SIMBOLI IN INFORMATICA
 
-Floating point
+Piccola anticipazione:
 
-1. Per calcolare la radice quadrata di un numero si puo' usare l'algoritmo di Newton. Dato un numero n di cui calcolare la radice, inizializzo il risultato r a 1. Ad ogni iterazione aggiorno r come
-valor medio tra r stesso e n/r (in pratica (r + n/r)/2 )   Mi fermo quando il valore assoluto della differenza tra il valore con cui aggiorno r e il valore precedente di r e' inferiore a 10^-6 Confrontare il risultato con quanto restituito da sqrt(n)
+Come usare il costrutto if:
 
-Interi
+if(espressione)
+     istruzione|blocco di istruzioni
+else
+     istruzione|blocco di istruzioni
 
-2. sviluppare un programma che legga un char da input e scriva se e' una lettera maiuscola, minuscola, cifra oppure, se nessuna delle precedenti si applica, e' un carattere speciale
+Esempio
 
-3. sviluppare un programma che legga un char da input, se e' una lettera minuscola lo trasformi in maiuscola, stampi il carattere
+if(a > 10 || b == c)
+{
+ printf("Condizione vera");
+}
+else
+{
+ printf("Condizione falsa");
+}
 
-4. sviluppare un programma che prenda in ingresso un carattere e ripeta fintanto che non sia stato inserito S o N 
 
-5. prendere in ingresso un numero e stamparne il fattoriale (si rammenta che il fattoriale di n si scrive n! e vale 1*2*3* ... *(n-1)*n)
-   Che tipi di dato mi conviene usare?
+Rappresentazione dei numeri in informatica
 
-6. Calcolare il numero piu' grande per cui io riesco a calcolare il fattoriale
+ 1 leggere da tastiera un numero intero non negativo tra 0 e 15.
+   Stampare le 4 cifre della sua rappresentazione binaria dalla
+   meno significativa alla piú significativa (suggerimento: usare
+   l'operatore % e la divisione e non la funzione pow())
 
-Vari
+ 2 Leggere da tastiera un simbolo. Sommare a quel simbolo 1 e
+   stamparlo sia come simbolo che come codice ASCII. Cosa succede? E
+   perche'?
 
-7. Nelle vecchie tastiere dei telefoni vi erano associazioni numero -> lettere (1=ABC, 2=DEF, 3=GHI, 4=JKL, 5=MNO, 6=PQR, 7=ST, 8=UV, 9=WX, 0=YZ.)
-   Data in ingresso una sequenza di caratteri stampare i corrispondenti numeri.
-   Ad esempio MASSIMO -> 5177355
+ 3 leggere da tastiera una cifra come char. Stamparne il codice
+   ASCII. Successivamente, memorizzare il valore che rappresenta 
+   (quindi non il codice ASCII ma un valore tra 0 e 9) in una 
+   variabile di tipo int e stamparla.
 
-8. redigere un programma che prende in ingresso una sequenza di caratteri e calcola quante vocali contiene.
+ 4 come il #1 ma stampare la cifra esadecimale corrispondente
+   (calcolandola, non usando gli specificatori di formato %x o %X)
+   Richiede l'uso del costrutto if()
 
-9. Redigere un programma C che controlli la validità di una password.   
-    Si supponga che, perché una password sia valida, debbano essere      soddisfatte tutte le seguenti regole:                                 
+ 5 come il #1 ma stampando le cifre dalla più significativa alla 
+   meno significativa
 
-    1. deve contenere una combinazione di lettere minuscole e di cifre, con almeno un carattere di ciascun insieme;
+ 6 prendere in ingresso una singola cifra esadecimale e stamparne
+   il valore in formato decimale
+   Richiede l'uso del costrutto if()
 
-    2. deve avere una lunghezza compresa tra 5 e 12 caratteri; 
-    
-    3. non possono esserci due caratteri contigui uguali. 
-    
-    Il programma deve iterativamente chiedere l'introduzione di una password e stampare VALIDA o NON VALIDA (e la motivazione) ad ogni introduzione.
+ 7 prendere in ingresso 4 cifre binarie e stampare il valore
+   del numero che rappresentano in formato decimale
+
 

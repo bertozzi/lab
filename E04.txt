@@ -1,65 +1,39 @@
-//^ ESERCIZI SU ARRAY
+//^ TIPI DI DATO IN C
 
-La funzione rand(), definita in stdlib.h, restituisce un intero
-casuale compreso nell'intervallo [0, RAND_MAX]. La sequenza e' in
-realta' pseudocasuale in quanto e' ottenuta a partire da un seme
-(seed) ovvero un valore numerico. A questo seme si applicano formule,
-operazioni bit a bit ecc. fino ad ottenere un numero che viene
-restituito da rand() e verra' usato come seme per la volta successiva.
+Floating point
 
-Ne consegue che rand() restituisce ogni volta la stessa sequenza di
-numeri casuali. Per evitare tale comportamento e ottenere quindi una
-sequenza ogni volta differente si puo' utilizzare la funzione srand().
-Ad esempio invocandola all'inizio della main, una e una sola volta,
-come:
+1. Per calcolare la radice quadrata di un numero si puo' usare l'algoritmo di Newton. Dato un numero n di cui calcolare la radice, inizializzo il risultato r a 1. Ad ogni iterazione aggiorno r come
+valor medio tra r stesso e n/r (in pratica (r + n/r)/2 )   Mi fermo quando il valore assoluto della differenza tra il valore con cui aggiorno r e il valore precedente di r e' inferiore a 10^-6 Confrontare il risultato con quanto restituito da sqrt(n)
 
-#include<time.h>
-...
+Interi
 
-srand(time(0));
+2. sviluppare un programma che legga un char da input e scriva se e' una lettera maiuscola, minuscola, cifra oppure, se nessuna delle precedenti si applica, e' un carattere speciale
 
+3. sviluppare un programma che legga un char da input, se e' una lettera minuscola lo trasformi in maiuscola, stampi il carattere
 
-Scrivere codice che:
+4. sviluppare un programma che prenda in ingresso un carattere e ripeta fintanto che non sia stato inserito S o N 
 
-1. usi rand() per riempire un array di 100 elementi con numeri interi
-casuali tra 0 e 70 e lo stampi (suggerimento, usare "%")
+5. prendere in ingresso un numero e stamparne il fattoriale (si rammenta che il fattoriale di n si scrive n! e vale 1*2*3* ... *(n-1)*n)
+   Che tipi di dato mi conviene usare?
 
-2. usi rand() per riempire un array di 100 elementi con numeri interi
-casuali tra 10 e 80 e lo stampi
+6. Calcolare il numero piu' grande per cui io riesco a calcolare il fattoriale
 
-3. come il (2) in cui però non si stampa ma, solo dopo aver riempito
-l'array, si richiede all'utente un numero, lo si ricerca nell'array
-e si stampa se esiste e in quale posizione si trovi (limitarsi alla
-prima occorrenza del numero cercato)
+Vari
 
-4. come il (2) in cui però prima della stampa si eliminino gli
-elementi duplicati
+7. Nelle vecchie tastiere dei telefoni vi erano associazioni numero -> lettere (1=ABC, 2=DEF, 3=GHI, 4=JKL, 5=MNO, 6=PQR, 7=ST, 8=UV, 9=WX, 0=YZ.)
+   Data in ingresso una sequenza di caratteri stampare i corrispondenti numeri.
+   Ad esempio MASSIMO -> 5177355
 
-5. usi rand() per riempire un array di 100 elementi con numeri interi
-univoci tra 1 e 300 e lo stampi
+8. redigere un programma che prende in ingresso una sequenza di caratteri e calcola quante vocali contiene.
 
-6. riempa un array di 100 elementi con i numeri tra 1 e 100 in ordine
-e successivamente lo "mescoli", ovvero scambi di posizione in maniera
-casuale i vari elementi dell'array, e poi lo stampi. Suggerimento: si
-scorra l'array elemento per elemento e per ciascun elemento generare
-casualmente (rand()) l'indice di un altro elemento con cui scambiarlo.
+9. Redigere un programma C che controlli la validità di una password.   
+    Si supponga che, perché una password sia valida, debbano essere      soddisfatte tutte le seguenti regole:                                 
 
-7. usi un array per memorizzare le caselle di una scacchiera 8x8, lo
-inizializzi usando uno o piú cicli mettendo 'N' per le caselle nere e
-'B' per quelle chiare e successivamente lo stampi:
+    1. deve contenere una combinazione di lettere minuscole e di cifre, con almeno un carattere di ciascun insieme;
 
-NBNBNBNB
-BNBNBNBN
-NBNBNBNB
-BNBNBNBN
-NBNBNBNB
-BNBNBNBN
-NBNBNBNB
-BNBNBNBN
-
-8. come il precedente ma usando un array monodimensionale...
-(suggerimento: data una matrice di N righe e M colonne è possibile
-memorizzarla in un array monodimensionale di dimensioni MxN; l'accesso
-all'elemento in riga y e colonna x lo posso effettuare accedendo
-all'elemento di indice x + M*y)
+    2. deve avere una lunghezza compresa tra 5 e 12 caratteri; 
+    
+    3. non possono esserci due caratteri contigui uguali. 
+    
+    Il programma deve iterativamente chiedere l'introduzione di una password e stampare VALIDA o NON VALIDA (e la motivazione) ad ogni introduzione.
 
