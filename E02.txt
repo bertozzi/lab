@@ -28,8 +28,9 @@ Rappresentazione dei numeri in informatica
    meno significativa alla piú significativa (suggerimento: usare
    l'operatore % e la divisione e non la funzione pow())
 
- 2 Leggere da tastiera un simbolo. Sommare a quel simbolo 1 e
-   stamparlo sia come simbolo che come codice ASCII. Cosa succede? E
+ 2 Leggere da tastiera un simbolo/lettera/cifra. stamparlo sia come simbolo che come codice ASCII.
+   Quindi sommare a quel simbolo 1 e
+   stampare nuovamente. Cosa succede? E
    perche'?
 
  3 leggere da tastiera una cifra come char. Stamparne il codice
@@ -48,7 +49,7 @@ Rappresentazione dei numeri in informatica
    il valore in formato decimale
    Richiede l'uso del costrutto if()
 
- 7 prendere in ingresso 4 cifre binarie e stampare il valore
-   del numero che rappresentano in formato decimale
+ 7 prendere in ingresso un numero in formato binario di 4 cifre e stampare il
+   relativo valore decimale
 
 
