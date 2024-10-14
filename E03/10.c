@@ -1,4 +1,4 @@
-// 15 Iterativamente chiedere all'utente un numero intero fino a che
+// 11 Iterativamente chiedere all'utente un numero intero fino a che
 //   l'utente non inserisce 0. Stampare quindi il piu' grande e il piu'
 //   piccolo dei numeri inseriti dall'utente.
 
