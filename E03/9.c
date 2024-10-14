@@ -1,4 +1,4 @@
-/* 13 le attuali aliquote IRPEF prevedono una tassazione del 23% per la
+/* le attuali aliquote IRPEF prevedono una tassazione del 23% per la
    quota di reddito imponibile fino a 15.000 EUR, del 25% per la parte
    tra 15.001 e 28.000 EUR del 35% per la quota tra 28.001 e 50.000
    EUR, e del 43% per quanto oltre i 50.000. Chiedere all'utente una
