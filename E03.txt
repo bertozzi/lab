@@ -1,24 +1,24 @@
 //^ Espressioni e Controllo di flusso: 
 
- A leggere da tastiera un numero a due cifre e stamparlo con le 
+ 1 leggere da tastiera un numero a due cifre e stamparlo con le 
    cifre invertite
 
- B prendere un numero intero in ingresso e stampare se il numero e'
+ 2 prendere un numero intero in ingresso e stampare se il numero e'
    pari o dispari
 
- C prendere in ingresso tre numeri floating point e stampare il 
+ 3 prendere in ingresso tre numeri floating point e stampare il 
    piu' grande dei 3
 
- D leggere da tastiera un numero fino a quando il numero inserito 
+ 4 leggere da tastiera un numero fino a quando il numero inserito 
    non e' compreso tra 10 e 20
 
- E prendere ingresso un numero intero N, calcoli la somma di tutti i
+ 5 prendere ingresso un numero intero N, calcoli la somma di tutti i
    numeri pari da 0 a N e stamparla
 
- F leggere da tastiera un numero, stampare quante cifre ha
+ 6 leggere da tastiera un numero, stampare quante cifre ha
    (suggerimento, dividere per 10 fino a che il risultato non è 0)
 
-11 si implementi il seguente algoritmo:
+ 7 si implementi il seguente algoritmo:
    a: input n
    b: fino a che n e' diverso da 1 ripetere i punti c e d:
        c: output n
@@ -29,23 +29,23 @@
    e: stampare la lunghezza della sequenza ottenuta ovvero quanti
       numeri sono stati stampati
 
-12 si prenda in ingresso un ammontare in EUR, un tasso di interesse
+ 8 si prenda in ingresso un ammontare in EUR, un tasso di interesse
    annuale (x in %), e una durata in anni n. Si stampi come varia
    l'ammontare inserito anno per anno se ogni anno applichiamo il
    tasso di interesse x per n anni.
 
-13 le aliquote IRPEF del 2023 prevedono una tassazione del 23% per la
+ 9 le aliquote IRPEF del 2023 prevedono una tassazione del 23% per la
    quota di reddito imponibile fino a 15.000 EUR, del 25% per la parte
    tra 15.001 e 28.000 EUR del 35% per la quota tra 28.001 e 50.000
    EUR, e del 43% per quanto oltre i 50.000. Chiedere all'utente una
    cifra di imponibile e stampare a video l'ammontare IRPEF e la
    relativa aliquota media.
 
-15 Iterativamente chiedere all'utente un numero intero fino a che
+10 Iterativamente chiedere all'utente un numero intero fino a che
    l'utente non inserisce 0. Stampare quindi il piu' grande e il piu'
    piccolo dei numeri inseriti dall'utente.
 
-16 Prendere in ingresso da tastiera un numero intero n e quindi
+11 Prendere in ingresso da tastiera un numero intero n e quindi
    stampare tutti i numeri interi presenti nell'intervallo [1,n] che
    sono anche cubi di altri numeri interi
 
