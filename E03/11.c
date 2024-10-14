@@ -1,16 +1,6 @@
-/*
- 11 si implementi il seguente algoritmo:
-   a: input n
-   b: fino a che n e' diverso da 1 ripetere i punti c e d:
-       c: output n
-       d: se n è dispari aggiornare n come
-             n <-- 3n+1:
-          altrimenti
-             n <-- n/2 (divisione intera)
-   e: stampare la lunghezza della sequenza ottenuta ovvero quanti
-      numeri sono stati stampati
-*/
-
+// 15 Iterativamente chiedere all'utente un numero intero fino a che
+//   l'utente non inserisce 0. Stampare quindi il piu' grande e il piu'
+//   piccolo dei numeri inseriti dall'utente.
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -18,24 +8,20 @@
 int main(int argc, char **argv){
 
   int n;
-  printf("Dammi un numero n: ");
-  scanf("%d", &n);
 
-  int lungh = 0;
-  while(n != 1)
+  int min = 2000000000, max = 0;
+  do
   {
-    printf("%d ", n);
-    ++lungh;
-    if(n%2)
-      n = 3*n + 1;
-    else
-      n = n/2;
+    printf("Inserisci un numero (0 per terminare): ");
+    scanf("%d", &n);
+    if(n > max)
+      max = n;
+    if(n < min && n != 0)
+      min = n;
   }
-  printf("\nLa sequenza ottenuta e' formata da %d numeri\n", lungh);
+  while(n);
 
-  // anche un for() era utilizzabile
-  // for(lungh = 0; n != 1; ++lungh)
-  // if(n%2)...
+  printf("Il numero piu' alto inserito vale %d, il piu' piccolo %d\n", max, min);
 
   return 0;
 }
