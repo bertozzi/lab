@@ -1,4 +1,4 @@
-// prendere ingresso un numero intero N, calcoli la somma di tutti i
+//  prendere ingresso un numero intero N, calcoli la somma di tutti i
 //  numeri pari da 0 a N e stamparla
 
 #include<stdio.h>

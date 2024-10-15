@@ -1,4 +1,4 @@
-// C prendere in ingresso tre numeri floating point e stampare il
+//   prendere in ingresso tre numeri floating point e stampare il
 //   piu' grande dei 3
 
 #include<stdio.h>
