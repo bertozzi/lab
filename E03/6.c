@@ -1,4 +1,4 @@
-//  F leggere da tastiera un numero, stampare quante cifre ha
+//   leggere da tastiera un numero, stampare quante cifre ha
 //   (suggerimento, dividere per 10 fino a che il risultato non è 0)
 
 

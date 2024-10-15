@@ -1,5 +1,5 @@
 /*
- 11 si implementi il seguente algoritmo:
+  si implementi il seguente algoritmo:
    a: input n
    b: fino a che n e' diverso da 1 ripetere i punti c e d:
        c: output n

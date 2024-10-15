@@ -1,4 +1,4 @@
-//  B prendere un numero intero in ingresso e stampare se il numero e'
+//   prendere un numero intero in ingresso e stampare se il numero e'
 //   pari o dispari
 
 #include<stdio.h>
