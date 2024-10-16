@@ -9,7 +9,8 @@ int main(int argc, char **argv){
   {
     printf("Inserisci un numero compreso tra 10 e 20: ");
     scanf("%d", &z);
-  } while(z < 10 || z > 20);
+  } 
+  while(z < 10 || z > 20);
 
 
   return 0;
