@@ -41,7 +41,7 @@
    cifra di imponibile e stampare a video l'ammontare IRPEF e la
    relativa aliquota media.
 
-10 Iterativamente chiedere all'utente un numero intero fino a che
+10 Iterativamente chiedere all'utente un numero intero positivo fino a che
    l'utente non inserisce 0. Stampare quindi il piu' grande e il piu'
    piccolo dei numeri inseriti dall'utente.
 

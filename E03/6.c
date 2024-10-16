@@ -18,9 +18,10 @@ int main(int argc, char **argv){
 
   do
   {
-    n = n/10;
+    n = n/10;  // potevo scrivere come n /= 10;
     ++ncifre;
-  }while(n);
+  }
+  while(n);
 
   printf("%d\n", ncifre);
 
