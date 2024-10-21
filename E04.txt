@@ -16,7 +16,7 @@ Interi
 5. prendere in ingresso un numero e stamparne il fattoriale (si rammenta che il fattoriale di n si scrive n! e vale 1*2*3* ... *(n-1)*n)
    Che tipi di dato mi conviene usare?
 
-6. Calcolare il numero piu' grande per cui io riesco a calcolare il fattoriale
+6. Riesco a fare ipotesi sul numero piu' grande per cui io riesco a calcolare il fattoriale? Fare un programma che prova a stimarlo
 
 Vari
 
