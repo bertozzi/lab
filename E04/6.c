@@ -30,29 +30,6 @@ int main(int argc, char **argv){
   // parto dal massimo numero intero memorizzabile
   // e scendo fino a che non trovo il primo fattoriale...
 
-  n = ULLONG_MAX;
-  // n = 2432902008176640000L; // DEBUG per verificare funzioni il tutto...
-
-  do
-  {
-    unsigned long long tmp = n;
-    unsigned long long div = 3;
-
-    do
-    {
-      tmp = tmp / div;
-      ++div;
-    }
-    while(tmp>2);
-
-    if(tmp == 2)
-    {
-      printf("Il massimo fattoriale che riesco a calcolare vale %lld\n", n);
-    }
-    --n; 
-  }
-  while(1);
-
   return 0;
 }
 
