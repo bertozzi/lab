@@ -6,16 +6,16 @@
 
 int main(int argc, char **argv){
 
-  unsigned long long n;
+  unsigned int n;
   printf("Inserisci un numero >=1: ");
-  scanf("%llu", &n);
+  scanf("%u", &n);
 
   unsigned long long fatt = 1;
 
   for(unsigned long long i = 2; i <= n; ++i)
     fatt = fatt * i;
 
-  printf("Il fattoriale di %llu vale %llu\n", n, fatt);
+  printf("Il fattoriale di %u vale %llu\n", n, fatt);
 
 
   return 0;
