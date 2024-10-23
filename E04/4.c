@@ -9,8 +9,8 @@ int main(int argc, char **argv){
 
   do
   {
-  printf("Inserisci un carattere: ");
-  scanf(" %c", &r);
+    printf("Inserisci un carattere: ");
+    scanf(" %c", &r);
   }
   while(r != 'S' && r !='N');
 

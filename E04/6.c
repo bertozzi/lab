@@ -10,7 +10,7 @@ int main(int argc, char **argv){
   // calcolo il fattoriale di n con n a crescere
   // quando il risultato e' minore del precedente c'e' sicuramente stato overflow
   unsigned long long n  = 2;
-  unsigned long long prec  = 0;
+  unsigned long long prec;
   unsigned long long fatt = 1;
 
   do
@@ -23,7 +23,9 @@ int main(int argc, char **argv){
     ++n;
 
   }
-  while(fatt > prec);
+  while((fatt / (n - 1)) == prec);
+
+  printf("Nota: %llu/%llu mi fornisce come risultato %llu\n", fatt, n-1, fatt / (n - 1));
 
   // APPROCCIO PIU' CORRETTO
   // ma non esce mai...
