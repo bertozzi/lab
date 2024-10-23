@@ -20,7 +20,7 @@ int main(int argc, char **argv){
     prec_r = r;
     r = (r + n/r)/2;
   }
-  while(r - prec_r > .000001 ||  prec_r - r > .000001);
+  while(r - prec_r > .000001 ||  prec_r - r > .000001); //XXX in alternativa potevo usare fabs(r - prec_r);
 
   printf("La radice quadrata di %f vale %f (sqrt() mi dice %f)\n", n, r, sqrt(n));
 
