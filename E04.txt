@@ -22,7 +22,7 @@ Vari
 
 7. Nelle vecchie tastiere dei telefoni vi erano associazioni numero -> lettere (1=ABC, 2=DEF, 3=GHI, 4=JKL, 5=MNO, 6=PQR, 7=ST, 8=UV, 9=WX, 0=YZ.)
    Data in ingresso una sequenza di caratteri stampare i corrispondenti numeri.
-   Ad esempio MASSIMO -> 5177355
+   Ad esempio MASSIMO -> 517735
 
 8. redigere un programma che prende in ingresso una sequenza di caratteri e calcola quante vocali contiene.
 
