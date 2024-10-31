@@ -42,7 +42,7 @@ dove si trovano. Sempre usando realloc() si "accorcino" gli array di
 modo da poter contenere 50 elementi e si stampi nuovamente il loro
 indirizzo in memoria. Cosa notate?
 
-7. si riprenda l'esercizio E01.11. Si memorizzi la sequenza ottenuta
+7. si riprenda l'esercizio E03.7. Si memorizzi la sequenza ottenuta
 nel ciclo (b) usando array allocato dinamicamente. Dato che la
 lunghezza della sequenza è ignota a priori si usi realloc() per
 estendere l'array man mano che vengono generati i numeri.
