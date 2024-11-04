@@ -52,10 +52,13 @@ Stampare la sequenza ottenuta solo al termine del ciclo.
 
 8. Si definisca e inizializzi un array di numeri in cui l'ultimo
 elemento, e solo lui, contiene 0. Si inizializzi un opportuno
-puntatore che inizialmente punti all'inizio dell'array. Tramite un
-ciclo for() stampare il contenuto dell'array non usando un indice ma
-facendo variare l'indirizzo contenuto nel puntatore di modo che man
-mano contenga l'indirizzo dei vari elementi dell'array.
+puntatore che inizialmente punti all'inizio dell'array. 
+Usare lo stesso puntatore come variabile utilizzata da un
+ciclo for() per stampare il contenuto dell'array, facendo variare 
+l'indirizzo contenuto nel puntatore di modo che man mano contenga 
+l'indirizzo dei vari elementi dell'array. Sfruttare la presenza di
+uno 0 come ultimo valore contenuto nell'array al fine di 
+terminare il for() stesso.
 
 
 9. Come il precedente in cui però l'ultimo elemento dell'array
