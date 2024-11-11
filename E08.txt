@@ -7,7 +7,7 @@ Scrivere un programma che:
 4. legga da tastiera due stringhe qualsiasi di massimo 10 caratteri e:
  - ne stampi la lunghezza (strlen())
  - le stampi in ordine "alfabetico" (strcmp())
-5. implementi la seguente funzione di modo da correggere l'errore di "lingering pointer" presente:
+5. modificare la seguente funzione di modo da correggere l'errore di "lingering pointer" presente:
    char *read_line(void){
     char tmp[2000];
     scanf("%[^\n]", tmp);
