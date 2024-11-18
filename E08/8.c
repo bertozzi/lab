@@ -13,14 +13,14 @@ int main(int argc, char **argv){
   if(strlen(s1) != strlen(s2))
   {
     printf("Le due parole hanno lunghezze differenti e quindi non sono una anagramma dell'altra\n");
-    return 1;
+    return 0;
   }
 
   for(int i1 = 0; i1 < strlen(s1); ++i1) // scandisco tutti i caratteri della prima stringa
   {
     
     int found = 0;
-    for(int i2 = 0; i2 < strlen(s1); ++i2) // lo cerco tra i caratteri della seconda stringa
+    for(int i2 = 0; i2 < strlen(s2); ++i2) // lo cerco tra i caratteri della seconda stringa
     {
       if( s1[i1] == s2[i2] )
       {
@@ -33,7 +33,7 @@ int main(int argc, char **argv){
     if( !found )
     {
       printf("Le due parole NON sono anagramma una dell'altra\n");
-      return 1;
+      return 0;
     }
   }
 
