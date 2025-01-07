@@ -1,0 +1,60 @@
+// I/O SU FILE
+
+Per chi si sente già in grado viene fornito un testo di esame che
+potete già svolgere con le competenze fino ad ora acquisite. In alternativa:
+
+
+1. aprire un file di tipo ASCII di nome "pippo.txt" in lettura.
+   Verificare il buon esito dell'operazione. Se avete errore come
+   potete capire cosa sia successo? Che funzione dovete usare in
+   questo caso?
+
+2. aprire un file di tipo ASCII di nome "pippo.txt" in scrittura,
+   controllate il buon esito dell'operazione e successivamente
+   chiudete il file. Il file è stato creato? E con che dimensione?
+
+3. copiatevi il file "elezioni.txt" nella dir di progetto. Provate ad
+   aprirlo in lettura come file ASCII. Il file in questione contiene
+   numeri interi separati da uno o piú caratteri di spaziatura.
+   Leggete i primi due numeri e stampateli. Chiudete quindi il file.
+   Cosa potete usare per leggere i due numeri? Stampate anche il
+   valore restituito dalla funzione che avete usato per leggere quei
+   due numeri.
+
+4. modificate l'esercizio 3 di modo da leggere e stampare a schermo
+   tutti i numeri presenti nel file. Non fate assunzioni su quanti
+   numeri vi siano nel file. Verificate, aprendo il file con un
+   editor, che tutti i numeri siano stampati una e una sola volta.
+
+5. Se nel precedente esercizio avete usato feof() ora modificatelo
+   usando il valore restituito da fscanf() per terminare il ciclo di
+   lettura. Se non avete usato fscanf() per leggere dal file allora
+   usatelo! ;)
+   Cercate di capire che usare feof() può essere scomodo.
+
+6. Sempre partendo dall'esercizio precedente modificatelo per leggere
+   tutti i numeri ma 3 alla volta e non uno solo.
+
+7. Partendo dall'esercizio 4, aprite un secondo file in scrittura
+   "elezioni.dat" in modalità binaria. Man mano che leggete un numero
+   dal file ASCII, scrivetelo nel file binario. Tutto questo senza
+   usare array! Qual è la dimensione del file binario generato?
+   Maggiore o minore rispetto a quella del file ASCII che conteneva
+   gli stessi dati? E perché?
+
+8. Come il precedente. In questo caso però memorizzate tutti i numeri
+   letti dal file ASCII in un array di 1000 elementi. Scrivete nel
+   file binario i soli elementi dell'array letti usando una singola
+   istruzione.
+
+9. Come il precedente ma invece di aprire il file binario in modalità
+   di scrittura (binaria) apritelo in modalità "append". Cosa
+   succede se lancio il programma piú volte? E perché? Modificate
+   successivamente il programma commentando le istruzioni di scrittura
+   su file. Cosa succede?
+
+A. Chiedete all'utente un numero. Aprite il lettura il file ASCII
+   divina.txt. Leggete il file "parola" per "parola" (ovvero sequenze
+   di caratteri separate da uno o piú spazi), stampate a schermo
+   le sole parole che hanno un numero di caratteri uguale al numero
+   inserito dall'utente.
