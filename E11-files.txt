@@ -1,4 +1,4 @@
-//^ I/O SU FILE
+//^ I/O SU FILE (ESERCIZI AGGIUNTI DOPO LA FINE DEL CORSO SU RICHIESTA STUDENTI)
 
 Per chi si sente già in grado viene fornito un testo di esame che
 potete già svolgere con le competenze fino ad ora acquisite. In alternativa:
@@ -30,7 +30,6 @@ potete già svolgere con le competenze fino ad ora acquisite. In alternativa:
    usando il valore restituito da fscanf() per terminare il ciclo di
    lettura. Se non avete usato fscanf() per leggere dal file allora
    usatelo! ;)
-   Cercate di capire che usare feof() può essere scomodo.
 
 6. Sempre partendo dall'esercizio precedente modificatelo per leggere
    tutti i numeri ma 3 alla volta e non uno solo.
