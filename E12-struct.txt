@@ -1,0 +1,39 @@
+//^ STRUCT (ESERCIZI AGGIUNTI DOPO LA FINE DEL CORSO SU RICHIESTA STUDENTI)
+
+ 1. definire una struct "cronometro" che possa contenere ore, minuti,
+    secondi e decimi. Definire inoltre due variabili che siano di
+    questo tipo e chiedere all'utente di inserire i relativi dati
+    riempendo le due variabili. Successivamente si stampi il contenuto
+    delle due variabili nel formato hh:mm:ss:dd
+
+ 2. si modifichi l'esercizio precedente di modo da stampare anche la
+    somma degli intervalli di tempo contenuti nelle due variabili.
+
+
+ 3. si definisca la struct complex pensata per gestire numeri
+    complessi ovvero numeri costituiti da parte reale e parte
+    immaginaria. Si generi un array di 20 numeri complessi riempendolo
+    con valori casuali (fissando intervalli a piacere per parte reale
+    e parte immaginaria). Successivamente se ne stampi il contenuto.
+
+ 4. Si modifichi l'esercizio precedente di modo da salvare su file
+    ASCII il contenuto dell'array
+
+ 5. Si modifichi l'esercizio #3 di modo da salvare su file binario il
+    contenuto dell'array
+
+ 6. Il file "planet.csv" contiene le informazioni relative ai 9
+    pianeti del sistema solare (nome, diametro, massa e numero
+    satelliti). Definire opportuna struct e relativo array (statico)
+    per memorizzare tali informazioni. Si legga quindi il contenuto
+    del file (ignorare la prima riga), lo si memorizzi nell'array
+    definito e, solo alla fine, se ne stampi il contenuto.
+
+ 7. Si modifichi l'esercizio precedente allocando l'array in maniera
+    dinamica
+
+ 8. Si modifichi l'esercizio precedente salvando il contenuto
+    dell'array su file binario
+
+
+
