@@ -1,0 +1,27 @@
+//^ PUNTATORI A PUNTATORI, PUNTATORI A FUNZIONE (ESERCIZI AGGIUNTI DOPO LA FINE DEL CORSO SU RICHIESTA STUDENTI)
+
+ 1. Il file "commedia.txt" contiene "parole" separate da una o
+    piu' spaziature. Scrivere il codice che lo legge e memorizza.
+    Suggerimento: si usino puntatori a puntatori per avere un array di
+    stringhe allocato tutto dinamicamente
+
+ 2. A partire dalla struttura dati precedentemente definita e riempita
+    con quanto letto dal file, si credi una seconda struttura dati.
+    Quest'ultima deve contenere: una e una sola occorrenza per
+    ciascuna delle parole lette da file, e il relativo numero di
+    occorrenze originale.
+    Suggerimento: si usi un array di "struct" allocato dinamicamente.
+    Ogni stuct conterra' la parola e il numero di occorrenze. Per
+    ogni parola presente nella prima struttura dovro' controllarne
+    l'esistenza nella seconda. In caso ci sia, mi limitero' ad
+    aumentare il numero di occorrenze, in caso non ci sia dovro'
+    inserirla con occorrenza iniziale pari a 1.
+
+3.  Si ordini l'array di struct definito al punto precedente usando
+    la qsort() per numero di occorrenze. Si stampino quindi le 10
+    occorrenze piu' frequenti.
+
+4.  Si chieda in input una parola, la si ricerchi nella struttura
+    definita la punto #2 e se ne stampi il numero di occorrenze.
+    Si usi a tal fine la funzione bsearch()
+
