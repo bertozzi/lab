@@ -25,8 +25,8 @@ di operatore per l'elevamento a potenza.
    visti a lezione. 
    Cosa cambia tra x e X?
 
- 2 leggere da tastiera un'ammontare in euro (quale tipo di dato
-   dovreste usare tra int e float?), applicare l'IVA del 22% e
+ 2 leggere da tastiera un'ammontare netto in euro (quale tipo di
+   dato dovreste usare tra int e float?), aggiungere l'IVA del 22% e
    stampare il risultato (si ricorda che per le valute vanno stampate
    2 e solo 2 cifre dopo la virgola).
 
