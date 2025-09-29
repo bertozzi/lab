@@ -6,8 +6,8 @@ Primi elementi C:
 
 printf(), scanf(), tipi di dato int e float, espressioni semplici.
 
-Non abbiamo ancora parlato di espressioni, ma per quanto richiesto ci
-servirà solo:
+Non abbiamo ancora parlato di espressioni ma solo visto qualche
+esempio molto semplice, ma per quanto richiesto ci servirà solo:
 
 1. = -> operatore di assegnamento, esempio a = 33.5; dopo aver
    definito la variabile a di opportuno tipo
