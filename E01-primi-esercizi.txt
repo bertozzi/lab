@@ -6,6 +6,15 @@ Primi elementi C:
 
 printf(), scanf(), tipi di dato int e float, espressioni semplici.
 
+Non abbiamo ancora parlato di espressioni, ma per quanto richiesto ci
+servirà solo:
+
+1. = -> operatore di assegnamento, esempio a = 33.5; dopo aver
+   definito la variabile a di opportuno tipo
+
+2. + - * / e % -> principali operatori matematici (devono essere a
+   destra dell'=
+
 Si rammenta che i principali operatori matematici sono: +, -, * e /
 Inoltre esiste % che restituisce il resto della divisione intera.
 A differenza di altri linguaggi, ^ non ha assolutamente il significato
