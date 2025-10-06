@@ -16,7 +16,7 @@ void gotoxy(int, int);                   // move the cursor to a given screen po
 char getcommand(void);                   // read a char from keyboard in a non blocking fashion, returns 0 if no key has been stroke
 
 
-void clearscreen(void);                  // clear the whole screen (actually, not needed)
+void clearscreen(void);                  // clear the whole screen 
 // END OF SECTION THAT MUST NOT BE MODIFIED
 
 
