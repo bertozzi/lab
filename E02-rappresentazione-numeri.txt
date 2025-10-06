@@ -21,6 +21,8 @@ else
 }
 
 
+Per leggere/scrivere simboli ASCII si usa il tipo char e lo specificatore di formato %c
+
 Rappresentazione dei numeri in informatica
 
  1 leggere da tastiera un numero intero non negativo tra 0 e 15.
