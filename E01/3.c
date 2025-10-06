@@ -8,7 +8,9 @@ int main(int argc, char **argv){
   printf("Inserisci due numeri: ");
   scanf("%d%d", &a, &b);
 
-  printf("Il risultato della divisione tra %d e %d vale %d\n", a, b, a/b); 
+  float c = a/b;
+
+  printf("Il risultato della divisione tra %d e %d vale %f\n", a, b, c); 
   // eseguendo questo codice cosa notate?
   // i conti tornano?
 
