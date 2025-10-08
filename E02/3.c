@@ -12,7 +12,7 @@ int main(int argc, char **argv){
 
   char cifra;
   printf("Inserire una cifra: ");
-  scanf("%c", &cifra); // in cifra non finisce il valore della cifra che ho inserito ma il relatico codice ASCII
+  scanf("%c", &cifra); // in cifra non finisce il valore della cifra che ho inserito ma il relativo codice ASCII
   printf("DEBUG: l'utente ha inserito '%c' con codice ASCII %d\n", cifra, cifra);
 
   // per convertire il codice ASCII di una cifra nel relativo valore che rappresenta
