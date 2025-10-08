@@ -13,11 +13,11 @@ int main(int argc, char **argv){
   printf("Inserisci un simbolo da tastiera: ");
   scanf("%c", &sym);
 
-  printf("Il symbolo inserito ha codice ASCII %d e rappresenta '%c'\n", sym, sym);
+  printf("Il simbolo inserito ha codice ASCII %d e rappresenta '%c'\n", sym, sym);
 
   sym = sym + 1; // andava bene anche ++sym
   
-  printf("Il symbolo dopo l'incremento ha codice ASCII %d e rappresenta '%c'\n", sym, sym);
+  printf("Il simbolo dopo l'incremento ha codice ASCII %d e rappresenta '%c'\n", sym, sym);
 
 
 

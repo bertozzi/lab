@@ -30,7 +30,7 @@ int main(int argc, char **argv){
   printf("%3d monete da 10 eurocent, mi rimangono %g EUR da gestire\n", euroc10, somma);
 
   int euroc05 = somma * 20;
-  somma = somma - euroc10 * .05;
+  somma = somma - euroc05 * .05;
   printf("%3d monete da 5 eurocent, mi rimangono %g EUR da gestire\n", euroc05, somma);
 
   int euroc02 = somma * 50;
