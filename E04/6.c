@@ -8,7 +8,8 @@ int main(int argc, char **argv){
 
   // APPROCCIO DI STIMA A FORZA BRUTA
   // calcolo il fattoriale di n con n a crescere
-  // quando il risultato e' minore del precedente c'e' sicuramente stato overflow
+  // quando il risultato e' tale per cui n!/n != (n-1)!  allora vuol dire
+  // che c'e' stato overflow
   unsigned long long n  = 2;
   unsigned long long prec;
   unsigned long long fatt = 1;
@@ -28,7 +29,6 @@ int main(int argc, char **argv){
   printf("Nota: %llu/%llu mi fornisce come risultato %llu\n", fatt, n-1, fatt / (n - 1));
 
   // APPROCCIO PIU' CORRETTO
-  // ma non esce mai...
   // parto dal massimo numero intero memorizzabile
   // e scendo fino a che non trovo il primo fattoriale...
 
