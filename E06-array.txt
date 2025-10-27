@@ -45,7 +45,7 @@ scorra l'array elemento per elemento e per ciascun elemento generare
 casualmente (rand()) l'indice di un altro elemento con cui scambiarlo.
 
 7. usi un array per memorizzare le caselle di una scacchiera 8x8, lo
-inizializzi usando uno o piú cicli mettendo 'N' per le caselle nere e
+si inizializzi usando uno o piú cicli mettendo 'N' per le caselle nere e
 'B' per quelle chiare e successivamente lo stampi:
 
 NBNBNBNB
