@@ -15,7 +15,7 @@ int main(int argc, char **argv){
 
   srand(time(0));
 
-  int a[ASIZE];
+  unsigned short a[ASIZE];
   int i;
 
   for(i = 0; i < ASIZE; ++i)
@@ -23,9 +23,9 @@ int main(int argc, char **argv){
     a[i] = 10 + rand() % 71;
   }
 
-  int n;
+  unsigned short n;
   printf("Inserisci un numero da ricercare: ");
-  scanf("%d", &n);
+  scanf("%hu", &n);
 
   for(i = 0; i < ASIZE; ++i)
   {
