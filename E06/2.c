@@ -13,7 +13,7 @@ int main(int argc, char **argv){
 
   srand(time(0));
 
-  int a[ASIZE];
+  unsigned short a[ASIZE];
 
   for(int i = 0; i < ASIZE; ++i)
   {
@@ -22,7 +22,7 @@ int main(int argc, char **argv){
 
   for(int i = 0; i < ASIZE; ++i)
   {
-    printf("L'elemento di indice #%d vale %d\n", i, a[i]);
+    printf("L'elemento di indice #%d vale %u\n", i, a[i]);
   }
   return 0;
 }
