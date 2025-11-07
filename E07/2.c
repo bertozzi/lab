@@ -12,15 +12,15 @@ stampi per verifica il contenuto di sum.
 
 int main(int argc, char **argv){
 
-  int i1, i2;
-  printf("Inserisci due numeri interi: ");
-  scanf("%d%d", &i1, &i2);
-
-  int sum, *psum, *p1, *p2;
+  int i1, i2, sum, *psum, *p1, *p2;
 
   p1   = &i1;
   p2   = &i2;
   psum = &sum;
+
+  printf("Inserisci due numeri interi: ");
+  scanf("%d%d", p1, p2); // usare p1 e p2 e' equivalente a &i1, &i2
+
 
   *psum = *p1 + *p2;
 
