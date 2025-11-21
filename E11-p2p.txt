@@ -1,0 +1,28 @@
+//^ PUNTATORI A PUNTATORI, ALLOCAZIONE DINAMICA ARRAY MULTIDIMENSIONALI
+
+//! Puntatori a puntatori
+
+1. Sintassi: si definisca una variabile di tipo double, si definisca
+   un puntatore a double e lo si inizializzi con l'indirizzo della
+   variabile. Si definisca un puntatore a puntatore double e lo si
+   inizializzi con l'indirizzo del precedente puntatore. Si usi il
+   puntatore a puntatore per memorizzare dentro la variabile il valore
+   3.14
+
+2. Linea di comando: si individui se nella linea di comando e'
+   presente "-h", si rammenta che è possibile inserire la linea di
+   comando da Project -> Set program's arguments
+
+3. Array statico di stringhe: si definisca un array di stringhe,
+   inizializzandolo con i nomi dei sette nani: Mammolo, Brontolo,
+   Eolo, Pisolo, Dotto, Gongolo, Cucciolo Quali sintassi devo usare?
+
+4. Si modifichi il precedente esercizio di modo che il programma
+   confronti quanto passato sulla linea di comando con gli elementi
+   nell'array e stampi le parole presenti sulla linea di comando che
+   non corrispondono al nome di alcun nano
+
+5. Allocazione dinamica array bidimensionali: si chieda all'utente le
+   dimensioni di una matrice, si allochi dinamicamente una matrice di
+   float avente quelle dimensioni (usando **), si legga da tastiera
+   gli elementi della matrice e la si stampi (in maniera ordinata)
