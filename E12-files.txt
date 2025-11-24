@@ -1,4 +1,4 @@
-//^ I/O SU FILE (ESERCIZI AGGIUNTI DOPO LA FINE DEL CORSO SU RICHIESTA STUDENTI)
+//^ I/O SU FILE
 
 Per chi si sente già in grado viene fornito un testo di esame che
 potete già svolgere con le competenze fino ad ora acquisite. In alternativa:
