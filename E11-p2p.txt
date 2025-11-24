@@ -15,7 +15,7 @@
 
 3. Array statico di stringhe: si definisca un array di stringhe,
    inizializzandolo con i nomi dei sette nani: Mammolo, Brontolo,
-   Eolo, Pisolo, Dotto, Gongolo, Cucciolo Quali sintassi devo usare?
+   Eolo, Pisolo, Dotto, Gongolo, Cucciolo Quali sintassi posso usare?
 
 4. Si modifichi il precedente esercizio di modo che il programma
    confronti quanto passato sulla linea di comando con gli elementi
