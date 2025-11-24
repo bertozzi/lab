@@ -27,6 +27,7 @@ int main(int argc, char **argv){
     ++lungh; // incremento dimensione array
     mynumbers = realloc(mynumbers, sizeof(int) * lungh);
     mynumbers[lungh - 1] = n;    // memorizzo n nell'ultimo elemento (dimensione array - 1)
+    printf("DEBUG: ora mynumbers punta all'indirizzo %p e contiene %d elementi, l'ultimo elemento aggiunto vale %d\n", mynumbers, lungh, n);
 
 
     if(n%2)
