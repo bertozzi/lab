@@ -24,5 +24,5 @@
 
 5. Allocazione dinamica array bidimensionali: si chieda all'utente le
    dimensioni di una matrice, si allochi dinamicamente una matrice di
-   float avente quelle dimensioni (usando **), si legga da tastiera
+   float avente quelle dimensioni (usando **), si leggano da tastiera
    gli elementi della matrice e la si stampi (in maniera ordinata)
