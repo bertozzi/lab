@@ -55,3 +55,11 @@ di operatore per l'elevamento a potenza.
    Sottrarre ulteriormente l'ammontare complessivo delle monete da
    1 EUR e ripetere ulteriormente la procedura con tutti i tagli di
    monete rimanenti dal piú grande (50 eurocent) fino al centesimo.
+
+ERRORI COMUNI
+
+1. 100/22*soldi
+2. scanf("Inserire un numero %d\n", &a);
+3. scanf("%d, %d", &a, &b);
+4. scanf("%d", a);
+5. printf("differenti formati %d %o %x\n", num);
