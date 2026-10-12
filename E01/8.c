@@ -1,3 +1,19 @@
+/*
+ 8 leggere da tastiera una cifra in EUR. Considerando solo le monete
+   in EUR (2 EUR, 1 EUR, 50, 20, 10, 5, 2 e 1 eurocent). Calcolare
+   quale è il numero minimo di monete e di quale tipo che che si
+   possono usare per ottenere quella cifra. Suggerimento: dividere
+   la cifra per 2, otterrete così il numero di monete da 2 EUR.
+   Sottrarre alla cifra originale l'ammontare complessivo delle monete
+   da 2 EUR. Ripetere la procedura sulla cifra rimanente dividendo
+   per 1 e ottenendo così il numero di monete da 1 EUR da usare.
+   Sottrarre ulteriormente l'ammontare complessivo delle monete da
+   1 EUR e ripetere ulteriormente la procedura con tutti i tagli di
+   monete rimanenti dal piú grande (50 eurocent) fino al centesimo.
+*/
+
+// perche' con 8.87 non funziona (ad esempio)?
+
 #include<stdio.h>
 #include<stdlib.h>
 

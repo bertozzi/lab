@@ -58,8 +58,11 @@ di operatore per l'elevamento a potenza.
 
 ERRORI COMUNI
 
-1. 100/22*soldi
+1. 22/100*soldi
 2. scanf("Inserire un numero %d\n", &a);
 3. scanf("%d, %d", &a, &b);
 4. scanf("%d", a);
 5. printf("differenti formati %d %o %x\n", num);
+
+
+
