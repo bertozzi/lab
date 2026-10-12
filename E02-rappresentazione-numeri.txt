@@ -32,8 +32,7 @@ Rappresentazione dei numeri in informatica
 
  2 Leggere da tastiera un simbolo/lettera/cifra. stamparlo sia come simbolo che come codice ASCII.
    Quindi sommare a quel simbolo 1 e
-   stampare nuovamente. Cosa succede? E
-   perche'?
+   stampare nuovamente. Cosa succede? E perche'?
 
  3 leggere da tastiera una cifra come char. Stamparne il codice
    ASCII. Successivamente, memorizzare il valore che rappresenta 
@@ -47,8 +46,8 @@ Rappresentazione dei numeri in informatica
  5 come il #1 ma stampando le cifre dalla più significativa alla 
    meno significativa
 
- 6 prendere in ingresso una singola cifra esadecimale e stamparne
-   il valore in formato decimale
+ 6 prendere in ingresso una singola cifra esadecimale (come simbolo, ovvero
+   usando %c)  e stamparne il valore in formato decimale
    Richiede l'uso del costrutto if()
 
  7 prendere in ingresso un numero in formato binario di 4 cifre e stampare il
