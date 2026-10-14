@@ -21,7 +21,7 @@ int main(int argc, char **argv){
   else
   {
     // mi calcolo il simbolo da stampare 
-    char hex_digit = (x - 10) + 'A'; // f(x) tale che:  10 -> 'A', 11 -> 'B', ...
+    char hex_digit = 'A' + (x - 10); // f(x) tale che:  10 -> 'A', 11 -> 'B', ...
     printf("La cifra esadecimale corrispondente a %d vale %c\n", x, hex_digit);
     // a rigore una variabile non era  necessaria potevo fare tutto nella printf()
   }
