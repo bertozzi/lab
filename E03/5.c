@@ -12,8 +12,10 @@ int main(int argc, char **argv){
   scanf("%d", &n);
 
   int acc = 0;
-  for(int i = 2; i <= n; i += 2) // in laboratorio molti incrementavano di 1 per poi pero' usare un if() per sommare i soli numeri pari
-				 // partendo da 2 e incrementando di 2 i assumera' solo valori pari
+
+  // in laboratorio molti incrementavano di 1 per poi pero' usare un if() per sommare i soli numeri pari
+  // partendo da 2 e incrementando di 2 i assumera' solo valori pari
+  for(int i = 2; i <= n; i += 2) 
     acc += i;
 
   printf("La somma dei numeri pari tra 0 e %d vale %d\n", n, acc);
