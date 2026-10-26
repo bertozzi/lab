@@ -8,7 +8,7 @@ elementi duplicati
 #include<stdlib.h>
 #include<time.h>
 
-#define ASIZE (100000)
+#define ASIZE (100)
 #define NOTVALID (0) // l'intervallo di numeri possibili e' [10,80]. Quindi questo valore mi permette di segnalare elementi
 		     // "vuoti"
 

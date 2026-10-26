@@ -9,7 +9,7 @@ SOLUZIONE OTTIMIZZATA PIU' RAPIDA CON ARRAY GRANDI
 #include<stdlib.h>
 #include<time.h>
 
-#define ASIZE (100000)
+#define ASIZE (100)
 #define NOTVALID (0)
 
 int main(int argc, char **argv){
