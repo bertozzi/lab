@@ -46,7 +46,7 @@ int main(int argc, char **argv){
 
       //CAVEAT: i 3 approcci sovrascrivono uno quanto fatto dal precedente, per 
       //        vedere che effettivamente portano tutti allo stesso risultato
-      //        eliminate il codice o rahhiudetelo tra /* e */
+      //        eliminate il codice o racchiudetelo tra /* e */
     }
 
   // stampa della matrice

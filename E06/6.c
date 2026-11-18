@@ -28,7 +28,7 @@ int main(int argc, char **argv){
   for(int i = 0; i < ASIZE; ++i)
   {
     // genero indice di altro elemento con cui scambiare l'elemento di indice i
-    int j = rand()%ASIZE;
+    int j = rand() % ASIZE;
 
     // per lo scambio mi devo appoggiare a un'altra variabile temporanea
     int tmp = a[j];

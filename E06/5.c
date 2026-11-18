@@ -13,11 +13,12 @@ int main(int argc, char **argv){
 
   srand(time(0));
 
-  int a[ASIZE];
+  unsigned short a[ASIZE];
 
   for(int i = 0; i < ASIZE; ++i)
   {
-    int n, trovato;
+    unsigned short n; 
+    int trovato;
     do
     {
       n = 1 + rand() % 300;
